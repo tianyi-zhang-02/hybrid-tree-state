@@ -1,0 +1,55 @@
+[2026-11-23 01:37:40] server c4096 up
+[2026-11-23 01:37:40] main r8000
+root 0 A: p1_cold cached 0 mult 1.0640 max 0.591; p2_warm_decode cached 8192 mult 1.0790 max 0.563; p2_cold cached 0 mult 1.0709 max 0.356; p2_cold_again cached 0 mult 1.0753 max 0.590; p2_warm_end cached 8000 mult 1.0789 max 0.515; p1_warm_chunk cached 4096 mult 1.0706 max 0.407
+root 0 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.05949 max 0.6632; decode cached 8192 mean 0.07235 max 0.7393
+root 1 A: p1_cold cached 0 mult 2.2049 max 5.701; p2_warm_decode cached 8192 mult 1.0704 max 0.465; p2_cold cached 0 mult 1.0606 max 0.354; p2_cold_again cached 0 mult 1.0516 max 0.819; p2_warm_end cached 8000 mult 1.0710 max 0.542; p1_warm_chunk cached 4096 mult 1.0478 max 0.340
+root 1 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.06156 max 0.7460; decode cached 8192 mean 0.05414 max 0.6583
+root 2 A: p1_cold cached 0 mult 1.0705 max 0.670; p2_warm_decode cached 8192 mult 1.0978 max 0.499; p2_cold cached 0 mult 1.0632 max 0.749; p2_cold_again cached 0 mult 1.0917 max 0.559; p2_warm_end cached 8000 mult 1.0809 max 0.647; p1_warm_chunk cached 4096 mult 1.0714 max 0.578
+root 2 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.07823 max 0.5949; decode cached 8192 mean 0.09103 max 0.3717
+root 3 A: p1_cold cached 0 mult 1.0858 max 0.450; p2_warm_decode cached 8192 mult 1.0819 max 0.586; p2_cold cached 0 mult 1.0916 max 0.464; p2_cold_again cached 0 mult 1.0786 max 0.484; p2_warm_end cached 8000 mult 1.0731 max 0.372; p1_warm_chunk cached 4096 mult 1.0790 max 0.505
+root 3 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.06622 max 0.5594; decode cached 8192 mean 0.07511 max 0.7382
+root 4 A: p1_cold cached 0 mult 1.0750 max 2.106; p2_warm_decode cached 8192 mult 1.0541 max 0.450; p2_cold cached 0 mult 1.0478 max 0.301; p2_cold_again cached 0 mult 1.0652 max 0.970; p2_warm_end cached 8000 mult 1.0553 max 0.430; p1_warm_chunk cached 4096 mult 1.0393 max 0.500
+root 4 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.05033 max 0.3546; decode cached 8192 mean 0.05614 max 0.5943
+root 5 A: p1_cold cached 0 mult 1.0508 max 0.708; p2_warm_decode cached 8192 mult 1.0607 max 0.744; p2_cold cached 0 mult 1.1155 max 1.303; p2_cold_again cached 0 mult 1.0451 max 0.803; p2_warm_end cached 8000 mult 1.0867 max 0.639; p1_warm_chunk cached 4096 mult 1.0559 max 1.377
+root 5 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.01150 max 0.5574; decode cached 8192 mean 0.00764 max 0.3214
+root 6 A: p1_cold cached 0 mult 1.0000 max 0.001; p2_warm_decode cached 8192 mult 1.0000 max 0.000; p2_cold cached 0 mult 1.0000 max 0.001; p2_cold_again cached 0 mult 1.0000 max 0.001; p2_warm_end cached 8000 mult 1.0000 max 0.000; p1_warm_chunk cached 4096 mult 1.0000 max 0.001
+root 6 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.00314 max 0.2500; decode cached 8192 mean 0.00395 max 0.2500
+root 7 A: p1_cold cached 0 mult 1.0792 max 0.557; p2_warm_decode cached 8192 mult 1.0810 max 1.649; p2_cold cached 0 mult 1.0808 max 0.804; p2_cold_again cached 0 mult 1.0559 max 0.412; p2_warm_end cached 8000 mult 1.0734 max 0.567; p1_warm_chunk cached 4096 mult 1.0673 max 0.484
+root 7 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 4096 mean 0.00000 max 0.0000; end cached 8000 mean 0.07752 max 0.5156; decode cached 8192 mean 0.08302 max 0.5019
+[2026-11-23 01:42:32] main r32064
+root 0 A: p1_cold cached 0 mult 1.0938 max 0.755; p2_warm_decode cached 32256 mult 1.0781 max 0.388; p2_cold cached 0 mult 1.0869 max 0.502; p2_cold_again cached 0 mult 1.0709 max 0.431; p2_warm_end cached 32064 mult 1.0676 max 0.456; p1_warm_chunk cached 28672 mult 1.0776 max 0.459
+root 0 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.06042 max 0.3645; decode cached 32256 mean 0.06270 max 0.4875
+root 1 A: p1_cold cached 0 mult 1.0558 max 0.497; p2_warm_decode cached 32256 mult 1.0925 max 0.590; p2_cold cached 0 mult 1.0669 max 0.468; p2_cold_again cached 0 mult 1.0566 max 0.636; p2_warm_end cached 32064 mult 1.0850 max 0.632; p1_warm_chunk cached 28672 mult 2.0011 max 5.516
+root 1 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.03604 max 1.2898; decode cached 32256 mean 0.03638 max 1.2711
+root 2 A: p1_cold cached 0 mult 1.0621 max 0.519; p2_warm_decode cached 32256 mult 1.0690 max 0.535; p2_cold cached 0 mult 1.0982 max 0.563; p2_cold_again cached 0 mult 1.0820 max 0.535; p2_warm_end cached 32064 mult 1.0899 max 0.505; p1_warm_chunk cached 28672 mult 1.0701 max 0.518
+root 2 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.09387 max 1.9933; decode cached 32256 mean 0.08097 max 1.4510
+root 3 A: p1_cold cached 0 mult 1.0532 max 1.965; p2_warm_decode cached 32256 mult 1.3594 max 4.179; p2_cold cached 0 mult 1.0568 max 0.455; p2_cold_again cached 0 mult 1.2490 max 3.897; p2_warm_end cached 32064 mult 1.5015 max 4.707; p1_warm_chunk cached 28672 mult 1.0408 max 0.367
+root 3 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.04013 max 0.8727; decode cached 32256 mean 0.03235 max 0.6421
+root 4 A: p1_cold cached 0 mult 1.0695 max 0.883; p2_warm_decode cached 32256 mult 1.0676 max 0.493; p2_cold cached 0 mult 1.0446 max 0.485; p2_cold_again cached 0 mult 1.1279 max 2.722; p2_warm_end cached 32064 mult 1.0906 max 0.760; p1_warm_chunk cached 28672 mult 1.0625 max 0.547
+root 4 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.08962 max 0.7468; decode cached 32256 mean 0.08944 max 0.5204
+root 5 A: p1_cold cached 0 mult 1.0336 max 0.716; p2_warm_decode cached 32256 mult 1.0006 max 0.027; p2_cold cached 0 mult 1.0007 max 0.027; p2_cold_again cached 0 mult 1.0065 max 0.372; p2_warm_end cached 32064 mult 32112.1902 max 15.922; p1_warm_chunk cached 28672 mult 1.0093 max 0.432
+root 5 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.00444 max 0.9492; decode cached 32256 mean 0.00187 max 0.1875
+root 6 A: p1_cold cached 0 mult 1.0156 max 0.825; p2_warm_decode cached 32256 mult 1.0000 max 0.000; p2_cold cached 0 mult 1.0000 max 0.000; p2_cold_again cached 0 mult 1.0000 max 0.000; p2_warm_end cached 32064 mult 1.0000 max 0.000; p1_warm_chunk cached 28672 mult 1.0072 max 0.337
+root 6 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.04151 max 2.3125; decode cached 32256 mean 0.04655 max 1.8322
+root 7 A: p1_cold cached 0 mult 1.0785 max 0.639; p2_warm_decode cached 32256 mult 1.0453 max 0.471; p2_cold cached 0 mult 1.0591 max 0.356; p2_cold_again cached 0 mult 1.0547 max 0.411; p2_warm_end cached 32064 mult 1.0457 max 0.396; p1_warm_chunk cached 28672 mult 1.0768 max 0.436
+root 7 B: noise_p1 cached 0 mean 0.00000 max 0.0000; noise_p2 cached 0 mean 0.00000 max 0.0000; chunk cached 28672 mean 0.00000 max 0.0000; end cached 32064 mean 0.08401 max 0.4832; decode cached 32256 mean 0.08483 max 0.7816
+[2026-11-23 01:52:40] server c2048 up
+[2026-11-23 01:52:40] control r8000
+root 0 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 1 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 2 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 3 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 4 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 5 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 6 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 7 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+[2026-11-23 01:53:03] control r32064
+root 0 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 1 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 2 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 3 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 4 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 5 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 6 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+root 7 control: p1 mean 0.00000 max 0.0000; p2 mean 0.00000 max 0.0000; decode mean 0.00000 max 0.0000
+[2026-11-23 01:54:14] runner exit 0

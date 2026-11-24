@@ -1,0 +1,65 @@
+[2026-11-22 16:43:12] waiting for an idle desktop (up to 480 min)
+[2026-11-22 16:43:12] check: util=0% apps=[redacted] quiet=1
+[2026-11-22 16:45:17] desktop idle; starting
+[2026-11-22 16:46:04] server extra_buffer-b8 up after 50 s: #tokens: 144802 max_mamba_cache_size: 40 max_running_requests=8 
+{"max_mamba_cache_size": 40, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 39.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 38.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+f4-r8000-extra_buffer-b8-p0-s0: completion 127.995 s (trees [102.235, 127.989, 127.989, 127.984]), recomputed 390016, fallback {'inside_root': 45, 'parent': 129, 'none': 25, 'ancestor': 46, 'root': 3}, kv peak 0.78
+f4-r8000-extra_buffer-b8-p1-s0: completion 134.103 s (trees [134.101, 134.097, 134.095, 110.876]), recomputed 489280, fallback {'inside_root': 51, 'parent': 116, 'none': 35, 'ancestor': 32, 'root': 14}, kv peak 0.8
+f4-r8000-extra_buffer-b8-p0root-s0: completion 116.345 s (trees [93.521, 116.339, 116.336, 116.334]), recomputed 177472, fallback {'inside_root': 8, 'parent': 102, 'ancestor': 138}, kv peak 0.78
+f2-r32064-extra_buffer-b8-p0-s0: completion 81.069 s (trees [81.061, 81.056]), recomputed 247872, fallback {'inside_root': 35, 'parent': 61, 'none': 4, 'ancestor': 11, 'root': 13}, kv peak 0.75
+f2-r32064-extra_buffer-b8-p1-s0: completion 85.863 s (trees [85.857, 85.848]), recomputed 304384, fallback {'inside_root': 26, 'parent': 85, 'none': 7, 'ancestor': 6}, kv peak 0.78
+f2-r32064-extra_buffer-b8-p0root-s0: completion 69.29 s (trees [69.28, 69.273]), recomputed 77952, fallback {'inside_root': 4, 'parent': 61, 'ancestor': 59}, kv peak 0.75
+f4-r8000-extra_buffer-b8-p1-s1: completion 142.68 s (trees [142.677, 139.462, 142.674, 142.669]), recomputed 610752, fallback {'inside_root': 32, 'parent': 131, 'none': 53, 'ancestor': 19, 'root': 13}, kv peak 0.8
+f4-r8000-extra_buffer-b8-p0root-s1: completion 115.128 s (trees [115.122, 92.697, 115.118, 115.114]), recomputed 175808, fallback {'inside_root': 8, 'parent': 100, 'ancestor': 140}, kv peak 0.78
+f4-r8000-extra_buffer-b8-p0-s1: completion 134.72 s (trees [130.484, 134.714, 134.714, 134.711]), recomputed 489536, fallback {'inside_root': 32, 'parent': 140, 'none': 40, 'ancestor': 19, 'root': 17}, kv peak 0.8
+f2-r32064-extra_buffer-b8-p1-s1: completion 83.909 s (trees [83.903, 83.896]), recomputed 308224, fallback {'inside_root': 11, 'parent': 95, 'none': 8, 'ancestor': 5, 'root': 5}, kv peak 0.75
+f2-r32064-extra_buffer-b8-p0root-s1: completion 68.525 s (trees [68.516, 68.509]), recomputed 76416, fallback {'inside_root': 4, 'parent': 61, 'ancestor': 59}, kv peak 0.75
+f2-r32064-extra_buffer-b8-p0-s1: completion 78.163 s (trees [78.156, 78.15]), recomputed 196608, fallback {'inside_root': 13, 'parent': 56, 'none': 3, 'ancestor': 27, 'root': 25}, kv peak 0.72
+f4-r8000-extra_buffer-b8-p0root-s2: completion 114.117 s (trees [114.113, 114.109, 114.107, 91.617]), recomputed 178432, fallback {'inside_root': 8, 'parent': 100, 'ancestor': 140}, kv peak 0.78
+f4-r8000-extra_buffer-b8-p0-s2: completion 129.931 s (trees [129.928, 104.807, 129.925, 129.92]), recomputed 432192, fallback {'inside_root': 37, 'parent': 128, 'none': 31, 'ancestor': 43, 'root': 9}, kv peak 0.8
+f4-r8000-extra_buffer-b8-p1-s2: completion 133.584 s (trees [133.581, 108.771, 133.577, 133.574]), recomputed 496064, fallback {'inside_root': 37, 'parent': 136, 'none': 39, 'root': 5, 'ancestor': 31}, kv peak 0.8
+f2-r32064-extra_buffer-b8-p0root-s2: completion 68.714 s (trees [68.704, 68.698]), recomputed 79488, fallback {'inside_root': 4, 'parent': 56, 'ancestor': 64}, kv peak 0.78
+f2-r32064-extra_buffer-b8-p0-s2: completion 84.811 s (trees [84.805, 84.798]), recomputed 289792, fallback {'inside_root': 25, 'parent': 53, 'none': 5, 'ancestor': 30, 'root': 11}, kv peak 0.72
+f2-r32064-extra_buffer-b8-p1-s2: completion 82.169 s (trees [82.163, 82.156]), recomputed 277440, fallback {'inside_root': 6, 'parent': 78, 'none': 5, 'ancestor': 25, 'root': 10}, kv peak 0.75
+[2026-11-22 17:17:52] server extra_buffer-b16 up after 35 s: #tokens: 132226 max_mamba_cache_size: 48 max_running_requests=8 
+{"max_mamba_cache_size": 48, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 47.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 46.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+f4-r8000-extra_buffer-b16-p0-s0: completion 125.604 s (trees [125.602, 125.599, 101.74, 125.593]), recomputed 375104, fallback {'inside_root': 40, 'parent': 139, 'none': 24, 'ancestor': 39, 'root': 6}, kv peak 0.67
+f4-r8000-extra_buffer-b16-p1-s0: completion 124.828 s (trees [124.825, 102.444, 124.821, 124.818]), recomputed 329792, fallback {'inside_root': 64, 'parent': 138, 'none': 13, 'root': 24, 'ancestor': 9}, kv peak 0.67
+f4-r8000-extra_buffer-b16-p0root-s0: completion 115.051 s (trees [115.046, 115.044, 115.039, 92.602]), recomputed 161856, fallback {'inside_root': 8, 'parent': 112, 'ancestor': 128}, kv peak 0.67
+f2-r32064-extra_buffer-b16-p0-s0: completion 74.037 s (trees [74.029, 74.026]), recomputed 153920, fallback {'inside_root': 12, 'parent': 74, 'none': 2, 'ancestor': 15, 'root': 21}, kv peak 0.62
+f2-r32064-extra_buffer-b16-p1-s0: completion 79.476 s (trees [79.47, 79.461]), recomputed 242432, fallback {'inside_root': 11, 'parent': 103, 'none': 6, 'ancestor': 4}, kv peak 0.62
+f2-r32064-extra_buffer-b16-p0root-s0: completion 68.349 s (trees [68.34, 68.333]), recomputed 73600, fallback {'inside_root': 4, 'parent': 56, 'ancestor': 64}, kv peak 0.62
+f4-r8000-extra_buffer-b16-p1-s1: completion 123.805 s (trees [123.802, 123.802, 123.798, 101.873]), recomputed 310080, fallback {'inside_root': 59, 'parent': 136, 'none': 13, 'root': 29, 'ancestor': 11}, kv peak 0.67
+f4-r8000-extra_buffer-b16-p0root-s1: completion 113.401 s (trees [92.101, 113.393, 113.391, 113.389]), recomputed 169792, fallback {'inside_root': 8, 'parent': 116, 'ancestor': 124}, kv peak 0.65
+f4-r8000-extra_buffer-b16-p0-s1: completion 129.437 s (trees [104.372, 129.43, 129.43, 129.428]), recomputed 424000, fallback {'inside_root': 45, 'parent': 126, 'none': 27, 'ancestor': 24, 'root': 26}, kv peak 0.67
+f2-r32064-extra_buffer-b16-p1-s1: completion 63.971 s (trees [63.963, 63.958]), recomputed 18432, fallback {'inside_root': 4, 'parent': 120}, kv peak 0.6
+f2-r32064-extra_buffer-b16-p0root-s1: completion 67.538 s (trees [67.529, 67.521]), recomputed 62016, fallback {'inside_root': 4, 'parent': 73, 'ancestor': 47}, kv peak 0.62
+f2-r32064-extra_buffer-b16-p0-s1: completion 78.053 s (trees [78.047, 78.038]), recomputed 195072, fallback {'inside_root': 17, 'parent': 74, 'none': 3, 'ancestor': 14, 'root': 16}, kv peak 0.62
+f4-r8000-extra_buffer-b16-p0root-s2: completion 113.905 s (trees [99.774, 113.898, 113.895, 99.766]), recomputed 170304, fallback {'inside_root': 8, 'parent': 107, 'ancestor': 133}, kv peak 0.67
+f4-r8000-extra_buffer-b16-p0-s2: completion 128.439 s (trees [103.223, 128.435, 128.431, 128.43]), recomputed 405504, fallback {'inside_root': 47, 'parent': 123, 'none': 24, 'ancestor': 39, 'root': 15}, kv peak 0.67
+f4-r8000-extra_buffer-b16-p1-s2: completion 122.213 s (trees [101.775, 122.207, 122.206, 122.202]), recomputed 318528, fallback {'inside_root': 60, 'parent': 136, 'none': 16, 'ancestor': 30, 'root': 6}, kv peak 0.67
+f2-r32064-extra_buffer-b16-p0root-s2: completion 67.919 s (trees [67.909, 67.905]), recomputed 67776, fallback {'inside_root': 4, 'parent': 70, 'ancestor': 50}, kv peak 0.62
+f2-r32064-extra_buffer-b16-p0-s2: completion 78.691 s (trees [78.683, 78.678]), recomputed 217152, fallback {'inside_root': 37, 'parent': 62, 'none': 3, 'ancestor': 22}, kv peak 0.65
+f2-r32064-extra_buffer-b16-p1-s2: completion 70.816 s (trees [70.81, 70.803]), recomputed 118848, fallback {'inside_root': 4, 'parent': 115, 'none': 3, 'ancestor': 2}, kv peak 0.62
+[2026-11-22 17:47:58] server extra_buffer-b31 up after 35 s: #tokens: 108646 max_mamba_cache_size: 63 max_running_requests=8 
+{"max_mamba_cache_size": 63, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 62.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 61.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+f4-r8000-extra_buffer-b31-p0-s0: completion 119.854 s (trees [119.851, 116.402, 119.846, 119.846]), recomputed 250112, fallback {'inside_root': 42, 'parent': 157, 'none': 11, 'ancestor': 14, 'root': 24}, kv peak 0.51
+f4-r8000-extra_buffer-b31-p1-s0: completion 119.311 s (trees [119.308, 98.073, 119.303, 119.302]), recomputed 246144, fallback {'inside_root': 46, 'parent': 174, 'none': 8, 'root': 14, 'ancestor': 6}, kv peak 0.51
+f4-r8000-extra_buffer-b31-p0root-s0: completion 113.625 s (trees [90.85, 113.616, 113.616, 113.613]), recomputed 159296, fallback {'inside_root': 8, 'parent': 118, 'ancestor': 122}, kv peak 0.49
+f2-r32064-extra_buffer-b31-p0-s0: completion 66.209 s (trees [66.203, 66.195]), recomputed 52352, fallback {'inside_root': 4, 'parent': 118, 'none': 1, 'ancestor': 1}, kv peak 0.66
+f2-r32064-extra_buffer-b31-p1-s0: completion 64.01 s (trees [64.003, 63.997]), recomputed 18432, fallback {'inside_root': 4, 'parent': 120}, kv peak 0.66
+f2-r32064-extra_buffer-b31-p0root-s0: completion 65.168 s (trees [65.158, 65.152]), recomputed 32896, fallback {'inside_root': 4, 'parent': 106, 'ancestor': 14}, kv peak 0.65
+f4-r8000-extra_buffer-b31-p1-s1: completion 121.148 s (trees [121.146, 99.192, 121.141, 121.14]), recomputed 259840, fallback {'inside_root': 50, 'parent': 160, 'none': 10, 'root': 13, 'ancestor': 15}, kv peak 0.51
+f4-r8000-extra_buffer-b31-p0root-s1: completion 113.253 s (trees [90.815, 113.243, 113.242, 113.242]), recomputed 167296, fallback {'inside_root': 8, 'parent': 113, 'ancestor': 127}, kv peak 0.49
+f4-r8000-extra_buffer-b31-p0-s1: completion 123.097 s (trees [123.095, 123.09, 98.906, 123.087]), recomputed 309248, fallback {'inside_root': 76, 'parent': 124, 'none': 10, 'ancestor': 25, 'root': 13}, kv peak 0.51
+f2-r32064-extra_buffer-b31-p1-s1: completion 63.995 s (trees [63.989, 63.981]), recomputed 18432, fallback {'inside_root': 4, 'parent': 120}, kv peak 0.65
+f2-r32064-extra_buffer-b31-p0root-s1: completion 65.586 s (trees [65.576, 65.569]), recomputed 39936, fallback {'inside_root': 4, 'parent': 97, 'ancestor': 23}, kv peak 0.67
+f2-r32064-extra_buffer-b31-p0-s1: completion 76.353 s (trees [76.345, 76.341]), recomputed 190848, fallback {'inside_root': 11, 'parent': 95, 'none': 4, 'ancestor': 14}, kv peak 0.67
+f4-r8000-extra_buffer-b31-p0root-s2: completion 114.26 s (trees [91.724, 114.252, 114.25, 114.249]), recomputed 161920, fallback {'inside_root': 8, 'parent': 118, 'ancestor': 122}, kv peak 0.49
+f4-r8000-extra_buffer-b31-p0-s2: completion 122.622 s (trees [122.619, 122.617, 98.405, 122.612]), recomputed 303104, fallback {'inside_root': 47, 'parent': 126, 'none': 12, 'ancestor': 41, 'root': 22}, kv peak 0.51
+f4-r8000-extra_buffer-b31-p1-s2: completion 118.547 s (trees [118.542, 118.542, 96.18, 118.537]), recomputed 221312, fallback {'inside_root': 34, 'parent': 192, 'none': 13, 'root': 1, 'ancestor': 8}, kv peak 0.51
+f2-r32064-extra_buffer-b31-p0root-s2: completion 66.234 s (trees [66.226, 66.217]), recomputed 39936, fallback {'inside_root': 4, 'parent': 98, 'ancestor': 22}, kv peak 0.66
+f2-r32064-extra_buffer-b31-p0-s2: completion 72.051 s (trees [72.045, 72.036]), recomputed 123776, fallback {'inside_root': 13, 'parent': 91, 'none': 2, 'ancestor': 3, 'root': 15}, kv peak 0.66
+f2-r32064-extra_buffer-b31-p1-s2: completion 64.51 s (trees [64.503, 64.496]), recomputed 18432, fallback {'inside_root': 4, 'parent': 120}, kv peak 0.65
+[2026-11-22 18:16:12] sweep done; 0 forests reported problems
+[2026-11-22 18:16:12] runner exit 0

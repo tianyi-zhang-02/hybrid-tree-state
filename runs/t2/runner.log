@@ -1,0 +1,137 @@
+[2026-11-23 11:37:25] waiting for an idle desktop (up to 480 min)
+[2026-11-23 11:37:25] check: util=0% apps=[redacted] quiet=0
+[2026-11-23 11:44:34] desktop idle; starting
+[2026-11-23 11:45:06] server extra_buffer-b8 up after 35 s: #tokens: 144802 max_mamba_cache_size: 40 max_running_requests=8 
+{"max_mamba_cache_size": 40, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 39.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 38.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t2-s0-r8000-b8-p0: completion 74.561 s, recomputed 59094 (revisit 38726), full misses 6, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r8000-b8-p0root: completion 73.87 s, recomputed 35848 (revisit 14662), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s0-r32064-b8-p0: completion 87.277 s, recomputed 113686 (revisit 94726), full misses 8, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r32064-b8-p0root: completion 82.349 s, recomputed 34624 (revisit 14150), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r8000-b8-p0root: completion 64.917 s, recomputed 30242 (revisit 11184), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r8000-b8-p0: completion 65.874 s, recomputed 44002 (revisit 25456), full misses 7, held at selection 0/16, k 0, open sessions peak 0
+t2-s1-r32064-b8-p0root: completion 71.861 s, recomputed 20642 (revisit 4272), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r32064-b8-p0: completion 76.483 s, recomputed 74718 (revisit 57902), full misses 7, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b8-p0: completion 85.283 s, recomputed 29098 (revisit 10732), full misses 0, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b8-p0root: completion 85.773 s, recomputed 29098 (revisit 10732), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s2-r32064-b8-p0: completion 94.595 s, recomputed 29482 (revisit 12140), full misses 0, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r32064-b8-p0root: completion 94.577 s, recomputed 28074 (revisit 10732), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+[2026-11-23 12:01:57] server extra_buffer-b16 up after 35 s: #tokens: 132226 max_mamba_cache_size: 48 max_running_requests=8 
+{"max_mamba_cache_size": 48, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 47.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 46.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t2-s0-r8000-b16-p0: completion 74.185 s, recomputed 52968 (revisit 32856), full misses 4, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r8000-b16-p0root: completion 73.615 s, recomputed 33672 (revisit 13382), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s0-r8000-b16-p2sel: completion 73.162 s, recomputed 30218 (revisit 10438), full misses 0, held at selection 8/16, k 5, open sessions peak 9
+t2-s0-r8000-b16-poracle: completion 72.931 s, recomputed 29888 (revisit 9798), full misses 0, held at selection 11/16, k 5, open sessions peak 9
+t2-s0-r32064-b16-p0: completion 84.118 s, recomputed 63040 (revisit 45126), full misses 3, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r32064-b16-p0root: completion 81.328 s, recomputed 32320 (revisit 12742), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s0-r32064-b16-p2sel: completion 81.956 s, recomputed 29120 (revisit 10054), full misses 0, held at selection 8/16, k 5, open sessions peak 9
+t2-s0-r32064-b16-poracle: completion 81.304 s, recomputed 28864 (revisit 9798), full misses 0, held at selection 11/16, k 5, open sessions peak 9
+t2-s1-r8000-b16-p0root: completion 64.773 s, recomputed 24994 (revisit 6960), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r8000-b16-p2sel: completion 64.821 s, recomputed 24994 (revisit 6960), full misses 0, held at selection 10/16, k 5, open sessions peak 8
+t2-s1-r8000-b16-poracle: completion 64.776 s, recomputed 23586 (revisit 5552), full misses 0, held at selection 13/16, k 5, open sessions peak 8
+t2-s1-r8000-b16-p0: completion 65.207 s, recomputed 34011 (revisit 15977), full misses 4, held at selection 0/16, k 0, open sessions peak 0
+t2-s1-r32064-b16-p0root: completion 72.122 s, recomputed 23970 (revisit 6960), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r32064-b16-p2sel: completion 72.272 s, recomputed 22818 (revisit 6320), full misses 0, held at selection 10/16, k 5, open sessions peak 8
+t2-s1-r32064-b16-poracle: completion 72.282 s, recomputed 23202 (revisit 6448), full misses 0, held at selection 13/16, k 5, open sessions peak 8
+t2-s1-r32064-b16-p0: completion 75.091 s, recomputed 64802 (revisit 47280), full misses 3, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b16-p2sel: completion 85.822 s, recomputed 24106 (revisit 6252), full misses 0, held at selection 11/16, k 5, open sessions peak 8
+t2-s2-r8000-b16-poracle: completion 85.071 s, recomputed 24106 (revisit 6252), full misses 0, held at selection 14/16, k 5, open sessions peak 8
+t2-s2-r8000-b16-p0: completion 86.203 s, recomputed 33615 (revisit 16207), full misses 4, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b16-p0root: completion 85.548 s, recomputed 24490 (revisit 6764), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s2-r32064-b16-p2sel: completion 93.603 s, recomputed 22826 (revisit 5996), full misses 0, held at selection 11/16, k 5, open sessions peak 8
+t2-s2-r32064-b16-poracle: completion 94.335 s, recomputed 24874 (revisit 8044), full misses 0, held at selection 14/16, k 5, open sessions peak 8
+t2-s2-r32064-b16-p0: completion 94.411 s, recomputed 26026 (revisit 9196), full misses 0, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r32064-b16-p0root: completion 94.314 s, recomputed 26026 (revisit 9196), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+[2026-11-23 12:34:37] server extra_buffer-b31 up after 40 s: #tokens: 108646 max_mamba_cache_size: 63 max_running_requests=8 
+{"max_mamba_cache_size": 63, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 62.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 61.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t2-s0-r8000-b31-p0: completion 73.345 s, recomputed 37292 (revisit 17478), full misses 1, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r8000-b31-p0root: completion 72.961 s, recomputed 30218 (revisit 10438), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s0-r8000-b31-p2sel: completion 72.735 s, recomputed 24768 (revisit 4934), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s0-r8000-b31-poracle: completion 73.409 s, recomputed 26560 (revisit 6470), full misses 0, held at selection 15/16, k 20, open sessions peak 12
+t2-s0-r32064-b31-p0: completion 83.821 s, recomputed 65280 (revisit 46470), full misses 3, held at selection 0/16, k 0, open sessions peak 0
+t2-s0-r32064-b31-p0root: completion 81.789 s, recomputed 28608 (revisit 9926), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s0-r32064-b31-p2sel: completion 80.855 s, recomputed 20800 (revisit 2502), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s0-r32064-b31-poracle: completion 81.739 s, recomputed 25536 (revisit 6470), full misses 0, held at selection 15/16, k 20, open sessions peak 12
+t2-s1-r8000-b31-p0root: completion 64.739 s, recomputed 24994 (revisit 6960), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+[2026-11-23 13:33:44] waiting for an idle desktop (up to 480 min)
+[2026-11-23 13:33:45] check: util=47% apps=[redacted] quiet=0
+[2026-11-23 13:49:10] check: util=36% apps=[redacted] quiet=0
+[2026-11-23 14:04:39] check: util=12% apps=[redacted] quiet=0
+[2026-11-23 14:20:13] check: util=12% apps=[redacted] quiet=0
+[2026-11-23 14:35:48] check: util=12% apps=[redacted] quiet=0
+[2026-11-23 14:51:29] check: util=14% apps=[redacted] quiet=0
+[2026-11-23 15:07:07] check: util=12% apps=[redacted] quiet=0
+[2026-11-23 15:22:46] check: util=15% apps=[redacted] quiet=0
+[2026-11-23 15:38:25] check: util=14% apps=[redacted] quiet=0
+[2026-11-23 15:54:06] check: util=12% apps=[redacted] quiet=0
+[2026-11-23 16:09:49] check: util=13% apps=[redacted] quiet=0
+[2026-11-23 16:25:31] check: util=13% apps=[redacted] quiet=0
+[2026-11-23 16:41:09] check: util=14% apps=[redacted] quiet=0
+[2026-11-23 16:45:18] desktop idle; starting
+[2026-11-23 16:46:07] server extra_buffer-b8 up after 50 s: #tokens: 144802 max_mamba_cache_size: 40 max_running_requests=8 
+{"max_mamba_cache_size": 40, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 39.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 38.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+[2026-11-23 16:46:11] skip t2-s0-r8000-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s0-r8000-b8-p0root (done before)
+[2026-11-23 16:46:11] skip t2-s0-r32064-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s0-r32064-b8-p0root (done before)
+[2026-11-23 16:46:11] skip t2-s1-r8000-b8-p0root (done before)
+[2026-11-23 16:46:11] skip t2-s1-r8000-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s1-r32064-b8-p0root (done before)
+[2026-11-23 16:46:11] skip t2-s1-r32064-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s2-r8000-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s2-r8000-b8-p0root (done before)
+[2026-11-23 16:46:11] skip t2-s2-r32064-b8-p0 (done before)
+[2026-11-23 16:46:11] skip t2-s2-r32064-b8-p0root (done before)
+[2026-11-23 16:46:52] server extra_buffer-b16 up after 35 s: #tokens: 132226 max_mamba_cache_size: 48 max_running_requests=8 
+{"max_mamba_cache_size": 48, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 47.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 46.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+[2026-11-23 16:46:56] skip t2-s0-r8000-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s0-r8000-b16-p0root (done before)
+[2026-11-23 16:46:56] skip t2-s0-r8000-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s0-r8000-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s0-r32064-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s0-r32064-b16-p0root (done before)
+[2026-11-23 16:46:56] skip t2-s0-r32064-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s0-r32064-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s1-r8000-b16-p0root (done before)
+[2026-11-23 16:46:56] skip t2-s1-r8000-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s1-r8000-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s1-r8000-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s1-r32064-b16-p0root (done before)
+[2026-11-23 16:46:56] skip t2-s1-r32064-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s1-r32064-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s1-r32064-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s2-r8000-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s2-r8000-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s2-r8000-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s2-r8000-b16-p0root (done before)
+[2026-11-23 16:46:56] skip t2-s2-r32064-b16-p2sel (done before)
+[2026-11-23 16:46:56] skip t2-s2-r32064-b16-poracle (done before)
+[2026-11-23 16:46:56] skip t2-s2-r32064-b16-p0 (done before)
+[2026-11-23 16:46:56] skip t2-s2-r32064-b16-p0root (done before)
+[2026-11-23 16:47:36] server extra_buffer-b31 up after 35 s: #tokens: 108646 max_mamba_cache_size: 63 max_running_requests=8 
+{"max_mamba_cache_size": 63, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 62.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 61.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+[2026-11-23 16:47:41] skip t2-s0-r8000-b31-p0 (done before)
+[2026-11-23 16:47:41] skip t2-s0-r8000-b31-p0root (done before)
+[2026-11-23 16:47:41] skip t2-s0-r8000-b31-p2sel (done before)
+[2026-11-23 16:47:41] skip t2-s0-r8000-b31-poracle (done before)
+[2026-11-23 16:47:41] skip t2-s0-r32064-b31-p0 (done before)
+[2026-11-23 16:47:41] skip t2-s0-r32064-b31-p0root (done before)
+[2026-11-23 16:47:41] skip t2-s0-r32064-b31-p2sel (done before)
+[2026-11-23 16:47:41] skip t2-s0-r32064-b31-poracle (done before)
+[2026-11-23 16:47:41] skip t2-s1-r8000-b31-p0root (done before)
+t2-s1-r8000-b31-p2sel: completion 64.708 s, recomputed 22178 (revisit 4144), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s1-r8000-b31-poracle: completion 64.636 s, recomputed 20898 (revisit 3120), full misses 0, held at selection 15/16, k 20, open sessions peak 10
+t2-s1-r8000-b31-p0: completion 65.233 s, recomputed 34095 (revisit 16061), full misses 4, held at selection 0/16, k 0, open sessions peak 0
+t2-s1-r32064-b31-p0root: completion 72.235 s, recomputed 23970 (revisit 6960), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s1-r32064-b31-p2sel: completion 71.898 s, recomputed 21154 (revisit 4144), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s1-r32064-b31-poracle: completion 71.802 s, recomputed 20002 (revisit 3248), full misses 0, held at selection 15/16, k 20, open sessions peak 10
+t2-s1-r32064-b31-p0: completion 73.98 s, recomputed 53218 (revisit 36336), full misses 1, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b31-p2sel: completion 85.693 s, recomputed 21674 (revisit 4332), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s2-r8000-b31-poracle: completion 84.504 s, recomputed 21674 (revisit 4332), full misses 0, held at selection 15/16, k 20, open sessions peak 9
+t2-s2-r8000-b31-p0: completion 85.945 s, recomputed 27306 (revisit 12268), full misses 1, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r8000-b31-p0root: completion 84.503 s, recomputed 24618 (revisit 6892), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+t2-s2-r32064-b31-p2sel: completion 93.768 s, recomputed 20650 (revisit 4332), full misses 0, held at selection 15/16, k 20, open sessions peak 23
+t2-s2-r32064-b31-poracle: completion 94.28 s, recomputed 20010 (revisit 3948), full misses 0, held at selection 15/16, k 20, open sessions peak 9
+t2-s2-r32064-b31-p0: completion 94.335 s, recomputed 23978 (revisit 7148), full misses 0, held at selection 0/16, k 0, open sessions peak 0
+t2-s2-r32064-b31-p0root: completion 94.26 s, recomputed 23978 (revisit 7148), full misses 0, held at selection 0/16, k 0, open sessions peak 1
+[2026-11-23 17:08:03] sweep done; 0 runs reported problems
+[2026-11-23 17:08:03] runner exit 0

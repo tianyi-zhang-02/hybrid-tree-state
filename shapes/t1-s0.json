@@ -1,0 +1,620 @@
+{
+ "kind": "t1",
+ "seed": 0,
+ "depth": 6,
+ "branch": 2,
+ "width": 8,
+ "seg": 256,
+ "root_children": [
+  "n1.0",
+  "n1.1"
+ ],
+ "levels": [
+  [
+   "n1.0",
+   "n1.1"
+  ],
+  [
+   "n2.0",
+   "n2.1",
+   "n2.2",
+   "n2.3"
+  ],
+  [
+   "n3.0",
+   "n3.1",
+   "n3.2",
+   "n3.3",
+   "n3.4",
+   "n3.5",
+   "n3.6",
+   "n3.7"
+  ],
+  [
+   "n4.0",
+   "n4.1",
+   "n4.2",
+   "n4.3",
+   "n4.4",
+   "n4.5",
+   "n4.6",
+   "n4.7",
+   "n4.8",
+   "n4.9",
+   "n4.10",
+   "n4.11",
+   "n4.12",
+   "n4.13",
+   "n4.14",
+   "n4.15"
+  ],
+  [
+   "n5.0",
+   "n5.1",
+   "n5.2",
+   "n5.3",
+   "n5.4",
+   "n5.5",
+   "n5.6",
+   "n5.7",
+   "n5.8",
+   "n5.9",
+   "n5.10",
+   "n5.11",
+   "n5.12",
+   "n5.13",
+   "n5.14",
+   "n5.15"
+  ],
+  [
+   "n6.0",
+   "n6.1",
+   "n6.2",
+   "n6.3",
+   "n6.4",
+   "n6.5",
+   "n6.6",
+   "n6.7",
+   "n6.8",
+   "n6.9",
+   "n6.10",
+   "n6.11",
+   "n6.12",
+   "n6.13",
+   "n6.14",
+   "n6.15"
+  ]
+ ],
+ "nodes": {
+  "n1.0": {
+   "parent": "root",
+   "level": 1,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n2.0",
+    "n2.1"
+   ]
+  },
+  "n1.1": {
+   "parent": "root",
+   "level": 1,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n2.2",
+    "n2.3"
+   ]
+  },
+  "n2.0": {
+   "parent": "n1.0",
+   "level": 2,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n3.0",
+    "n3.1"
+   ]
+  },
+  "n2.1": {
+   "parent": "n1.0",
+   "level": 2,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n3.2",
+    "n3.3"
+   ]
+  },
+  "n2.2": {
+   "parent": "n1.1",
+   "level": 2,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n3.4",
+    "n3.5"
+   ]
+  },
+  "n2.3": {
+   "parent": "n1.1",
+   "level": 2,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n3.6",
+    "n3.7"
+   ]
+  },
+  "n3.0": {
+   "parent": "n2.0",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.0",
+    "n4.1"
+   ]
+  },
+  "n3.1": {
+   "parent": "n2.0",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.2",
+    "n4.3"
+   ]
+  },
+  "n3.2": {
+   "parent": "n2.1",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.4",
+    "n4.5"
+   ]
+  },
+  "n3.3": {
+   "parent": "n2.1",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.6",
+    "n4.7"
+   ]
+  },
+  "n3.4": {
+   "parent": "n2.2",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.8",
+    "n4.9"
+   ]
+  },
+  "n3.5": {
+   "parent": "n2.2",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.10",
+    "n4.11"
+   ]
+  },
+  "n3.6": {
+   "parent": "n2.3",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.12",
+    "n4.13"
+   ]
+  },
+  "n3.7": {
+   "parent": "n2.3",
+   "level": 3,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n4.14",
+    "n4.15"
+   ]
+  },
+  "n4.0": {
+   "parent": "n3.0",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.0",
+    "n5.1"
+   ]
+  },
+  "n4.1": {
+   "parent": "n3.0",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.2": {
+   "parent": "n3.1",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.3": {
+   "parent": "n3.1",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.4": {
+   "parent": "n3.2",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.2",
+    "n5.3"
+   ]
+  },
+  "n4.5": {
+   "parent": "n3.2",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.6": {
+   "parent": "n3.3",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.4",
+    "n5.5"
+   ]
+  },
+  "n4.7": {
+   "parent": "n3.3",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.6",
+    "n5.7"
+   ]
+  },
+  "n4.8": {
+   "parent": "n3.4",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.8",
+    "n5.9"
+   ]
+  },
+  "n4.9": {
+   "parent": "n3.4",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.10": {
+   "parent": "n3.5",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.11": {
+   "parent": "n3.5",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.12": {
+   "parent": "n3.6",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.10",
+    "n5.11"
+   ]
+  },
+  "n4.13": {
+   "parent": "n3.6",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.12",
+    "n5.13"
+   ]
+  },
+  "n4.14": {
+   "parent": "n3.7",
+   "level": 4,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n4.15": {
+   "parent": "n3.7",
+   "level": 4,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n5.14",
+    "n5.15"
+   ]
+  },
+  "n5.0": {
+   "parent": "n4.0",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.1": {
+   "parent": "n4.0",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.2": {
+   "parent": "n4.4",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.0",
+    "n6.1"
+   ]
+  },
+  "n5.3": {
+   "parent": "n4.4",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.2",
+    "n6.3"
+   ]
+  },
+  "n5.4": {
+   "parent": "n4.6",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.4",
+    "n6.5"
+   ]
+  },
+  "n5.5": {
+   "parent": "n4.6",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.6",
+    "n6.7"
+   ]
+  },
+  "n5.6": {
+   "parent": "n4.7",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.7": {
+   "parent": "n4.7",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.8",
+    "n6.9"
+   ]
+  },
+  "n5.8": {
+   "parent": "n4.8",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.10",
+    "n6.11"
+   ]
+  },
+  "n5.9": {
+   "parent": "n4.8",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.12",
+    "n6.13"
+   ]
+  },
+  "n5.10": {
+   "parent": "n4.12",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.11": {
+   "parent": "n4.12",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.12": {
+   "parent": "n4.13",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.13": {
+   "parent": "n4.13",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.14": {
+   "parent": "n4.15",
+   "level": 5,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n5.15": {
+   "parent": "n4.15",
+   "level": 5,
+   "seg": 256,
+   "kept": true,
+   "children": [
+    "n6.14",
+    "n6.15"
+   ]
+  },
+  "n6.0": {
+   "parent": "n5.2",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.1": {
+   "parent": "n5.2",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.2": {
+   "parent": "n5.3",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.3": {
+   "parent": "n5.3",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.4": {
+   "parent": "n5.4",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.5": {
+   "parent": "n5.4",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.6": {
+   "parent": "n5.5",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.7": {
+   "parent": "n5.5",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.8": {
+   "parent": "n5.7",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.9": {
+   "parent": "n5.7",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.10": {
+   "parent": "n5.8",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.11": {
+   "parent": "n5.8",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.12": {
+   "parent": "n5.9",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.13": {
+   "parent": "n5.9",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.14": {
+   "parent": "n5.15",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  },
+  "n6.15": {
+   "parent": "n5.15",
+   "level": 6,
+   "seg": 256,
+   "kept": false,
+   "children": []
+  }
+ },
+ "stats": {
+  "requests": 62,
+  "decode_tokens": 15872,
+  "fork_states": 31,
+  "max_level_width": 16
+ }
+}

@@ -1,0 +1,2159 @@
+{
+ "kind": "t3",
+ "seed": 2,
+ "iters": 100,
+ "parallel": 4,
+ "max_children": 3,
+ "act_range": [
+  100,
+  400
+ ],
+ "min_term": 5,
+ "max_depth": 20,
+ "p_term": 0.1,
+ "c": 1.0,
+ "rounds": [
+  [
+   {
+    "it": 0,
+    "parent": "root",
+    "child": "n0",
+    "parent_depth": 0,
+    "parent_age_nodes": null,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 1,
+    "parent": "root",
+    "child": "n1",
+    "parent_depth": 0,
+    "parent_age_nodes": null,
+    "nth_child": 2
+   },
+   {
+    "it": 2,
+    "parent": "n0",
+    "child": "n2",
+    "parent_depth": 1,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 3,
+    "parent": "n1",
+    "child": "n3",
+    "parent_depth": 1,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 4,
+    "parent": "n2",
+    "child": "n4",
+    "parent_depth": 2,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 5,
+    "parent": "n0",
+    "child": "n5",
+    "parent_depth": 1,
+    "parent_age_nodes": 4,
+    "nth_child": 2
+   },
+   {
+    "it": 6,
+    "parent": "root",
+    "child": "n6",
+    "parent_depth": 0,
+    "parent_age_nodes": null,
+    "nth_child": 3
+   }
+  ],
+  [
+   {
+    "it": 7,
+    "parent": "n5",
+    "child": "n7",
+    "parent_depth": 2,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 8,
+    "parent": "n4",
+    "child": "n8",
+    "parent_depth": 3,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 9,
+    "parent": "n6",
+    "child": "n9",
+    "parent_depth": 1,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 10,
+    "parent": "n2",
+    "child": "n10",
+    "parent_depth": 2,
+    "parent_age_nodes": 7,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 11,
+    "parent": "n7",
+    "child": "n11",
+    "parent_depth": 3,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 12,
+    "parent": "n5",
+    "child": "n12",
+    "parent_depth": 2,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 13,
+    "parent": "n8",
+    "child": "n13",
+    "parent_depth": 4,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 14,
+    "parent": "n10",
+    "child": "n14",
+    "parent_depth": 3,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 15,
+    "parent": "n11",
+    "child": "n15",
+    "parent_depth": 4,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 16,
+    "parent": "n12",
+    "child": "n16",
+    "parent_depth": 3,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 17,
+    "parent": "n7",
+    "child": "n17",
+    "parent_depth": 3,
+    "parent_age_nodes": 9,
+    "nth_child": 2
+   },
+   {
+    "it": 18,
+    "parent": "n1",
+    "child": "n18",
+    "parent_depth": 1,
+    "parent_age_nodes": 16,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 19,
+    "parent": "n17",
+    "child": "n19",
+    "parent_depth": 4,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 20,
+    "parent": "n15",
+    "child": "n20",
+    "parent_depth": 5,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 21,
+    "parent": "n11",
+    "child": "n21",
+    "parent_depth": 4,
+    "parent_age_nodes": 9,
+    "nth_child": 2
+   },
+   {
+    "it": 22,
+    "parent": "n7",
+    "child": "n22",
+    "parent_depth": 3,
+    "parent_age_nodes": 14,
+    "nth_child": 3
+   }
+  ],
+  [
+   {
+    "it": 23,
+    "parent": "n22",
+    "child": "n23",
+    "parent_depth": 4,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 24,
+    "parent": "n20",
+    "child": "n24",
+    "parent_depth": 6,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 25,
+    "parent": "n15",
+    "child": "n25",
+    "parent_depth": 5,
+    "parent_age_nodes": 9,
+    "nth_child": 2
+   },
+   {
+    "it": 26,
+    "parent": "n17",
+    "child": "n26",
+    "parent_depth": 4,
+    "parent_age_nodes": 8,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 27,
+    "parent": "n25",
+    "child": "n27",
+    "parent_depth": 6,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 28,
+    "parent": "n26",
+    "child": "n28",
+    "parent_depth": 5,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 29,
+    "parent": "n22",
+    "child": "n29",
+    "parent_depth": 4,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 30,
+    "parent": "n20",
+    "child": "n30",
+    "parent_depth": 6,
+    "parent_age_nodes": 9,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 31,
+    "parent": "n29",
+    "child": "n31",
+    "parent_depth": 5,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 32,
+    "parent": "n28",
+    "child": "n32",
+    "parent_depth": 6,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 33,
+    "parent": "n22",
+    "child": "n33",
+    "parent_depth": 4,
+    "parent_age_nodes": 10,
+    "nth_child": 3
+   },
+   {
+    "it": 34,
+    "parent": "n23",
+    "child": "n34",
+    "parent_depth": 5,
+    "parent_age_nodes": 10,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 35,
+    "parent": "n32",
+    "child": "n35",
+    "parent_depth": 7,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 36,
+    "parent": "n25",
+    "child": "n36",
+    "parent_depth": 6,
+    "parent_age_nodes": 10,
+    "nth_child": 2
+   },
+   {
+    "it": 37,
+    "parent": "n27",
+    "child": "n37",
+    "parent_depth": 7,
+    "parent_age_nodes": 9,
+    "nth_child": 1
+   },
+   {
+    "it": 38,
+    "parent": "n12",
+    "child": "n38",
+    "parent_depth": 3,
+    "parent_age_nodes": 25,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 39,
+    "parent": "n36",
+    "child": "n39",
+    "parent_depth": 7,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 40,
+    "parent": "n37",
+    "child": "n40",
+    "parent_depth": 8,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 41,
+    "parent": "n35",
+    "child": "n41",
+    "parent_depth": 8,
+    "parent_age_nodes": 5,
+    "nth_child": 1
+   },
+   {
+    "it": 42,
+    "parent": "n21",
+    "child": "n42",
+    "parent_depth": 5,
+    "parent_age_nodes": 20,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 43,
+    "parent": "n36",
+    "child": "n43",
+    "parent_depth": 7,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 44,
+    "parent": "n39",
+    "child": "n44",
+    "parent_depth": 8,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 45,
+    "parent": "n41",
+    "child": "n45",
+    "parent_depth": 9,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 46,
+    "parent": "n20",
+    "child": "n46",
+    "parent_depth": 6,
+    "parent_age_nodes": 25,
+    "nth_child": 3
+   }
+  ],
+  [
+   {
+    "it": 47,
+    "parent": "n46",
+    "child": "n47",
+    "parent_depth": 7,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 48,
+    "parent": "n43",
+    "child": "n48",
+    "parent_depth": 8,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 49,
+    "parent": "n19",
+    "child": "n49",
+    "parent_depth": 5,
+    "parent_age_nodes": 29,
+    "nth_child": 1
+   },
+   {
+    "it": 50,
+    "parent": "n29",
+    "child": "n50",
+    "parent_depth": 5,
+    "parent_age_nodes": 20,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 51,
+    "parent": "n50",
+    "child": "n51",
+    "parent_depth": 6,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 52,
+    "parent": "n47",
+    "child": "n52",
+    "parent_depth": 8,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 53,
+    "parent": "n46",
+    "child": "n53",
+    "parent_depth": 7,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 54,
+    "parent": "n6",
+    "child": "n54",
+    "parent_depth": 1,
+    "parent_age_nodes": 47,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 55,
+    "parent": "n53",
+    "child": "n55",
+    "parent_depth": 8,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 56,
+    "parent": "n31",
+    "child": "n56",
+    "parent_depth": 6,
+    "parent_age_nodes": 24,
+    "nth_child": 1
+   },
+   {
+    "it": 57,
+    "parent": "n21",
+    "child": "n57",
+    "parent_depth": 5,
+    "parent_age_nodes": 35,
+    "nth_child": 2
+   },
+   {
+    "it": 58,
+    "parent": "n27",
+    "child": "n58",
+    "parent_depth": 7,
+    "parent_age_nodes": 30,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 59,
+    "parent": "n58",
+    "child": "n59",
+    "parent_depth": 8,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 60,
+    "parent": "n53",
+    "child": "n60",
+    "parent_depth": 8,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 61,
+    "parent": "n37",
+    "child": "n61",
+    "parent_depth": 8,
+    "parent_age_nodes": 23,
+    "nth_child": 2
+   },
+   {
+    "it": 62,
+    "parent": "n50",
+    "child": "n62",
+    "parent_depth": 6,
+    "parent_age_nodes": 11,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 63,
+    "parent": "n60",
+    "child": "n63",
+    "parent_depth": 9,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 64,
+    "parent": "n61",
+    "child": "n64",
+    "parent_depth": 9,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 65,
+    "parent": "n59",
+    "child": "n65",
+    "parent_depth": 9,
+    "parent_age_nodes": 5,
+    "nth_child": 1
+   },
+   {
+    "it": 66,
+    "parent": "n58",
+    "child": "n66",
+    "parent_depth": 8,
+    "parent_age_nodes": 7,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 67,
+    "parent": "n64",
+    "child": "n67",
+    "parent_depth": 10,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 68,
+    "parent": "n62",
+    "child": "n68",
+    "parent_depth": 7,
+    "parent_age_nodes": 5,
+    "nth_child": 1
+   },
+   {
+    "it": 69,
+    "parent": "n66",
+    "child": "n69",
+    "parent_depth": 9,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 70,
+    "parent": "n47",
+    "child": "n70",
+    "parent_depth": 8,
+    "parent_age_nodes": 22,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 71,
+    "parent": "n70",
+    "child": "n71",
+    "parent_depth": 9,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 72,
+    "parent": "n68",
+    "child": "n72",
+    "parent_depth": 8,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 73,
+    "parent": "n52",
+    "child": "n73",
+    "parent_depth": 9,
+    "parent_age_nodes": 20,
+    "nth_child": 1
+   },
+   {
+    "it": 74,
+    "parent": "n23",
+    "child": "n74",
+    "parent_depth": 5,
+    "parent_age_nodes": 50,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 75,
+    "parent": "n74",
+    "child": "n75",
+    "parent_depth": 6,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 76,
+    "parent": "n71",
+    "child": "n76",
+    "parent_depth": 10,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   },
+   {
+    "it": 77,
+    "parent": "n70",
+    "child": "n77",
+    "parent_depth": 9,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   },
+   {
+    "it": 78,
+    "parent": "n73",
+    "child": "n78",
+    "parent_depth": 10,
+    "parent_age_nodes": 4,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 79,
+    "parent": "n77",
+    "child": "n79",
+    "parent_depth": 10,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 80,
+    "parent": "n12",
+    "child": "n80",
+    "parent_depth": 3,
+    "parent_age_nodes": 67,
+    "nth_child": 3
+   },
+   {
+    "it": 81,
+    "parent": "n78",
+    "child": "n81",
+    "parent_depth": 11,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 82,
+    "parent": "n39",
+    "child": "n82",
+    "parent_depth": 8,
+    "parent_age_nodes": 42,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 83,
+    "parent": "n82",
+    "child": "n83",
+    "parent_depth": 9,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 84,
+    "parent": "n53",
+    "child": "n84",
+    "parent_depth": 8,
+    "parent_age_nodes": 30,
+    "nth_child": 3
+   },
+   {
+    "it": 85,
+    "parent": "n44",
+    "child": "n85",
+    "parent_depth": 9,
+    "parent_age_nodes": 40,
+    "nth_child": 1
+   },
+   {
+    "it": 86,
+    "parent": "n77",
+    "child": "n86",
+    "parent_depth": 10,
+    "parent_age_nodes": 8,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 87,
+    "parent": "n84",
+    "child": "n87",
+    "parent_depth": 9,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 88,
+    "parent": "n86",
+    "child": "n88",
+    "parent_depth": 11,
+    "parent_age_nodes": 1,
+    "nth_child": 1
+   },
+   {
+    "it": 89,
+    "parent": "n60",
+    "child": "n89",
+    "parent_depth": 9,
+    "parent_age_nodes": 28,
+    "nth_child": 2
+   },
+   {
+    "it": 90,
+    "parent": "n71",
+    "child": "n90",
+    "parent_depth": 10,
+    "parent_age_nodes": 18,
+    "nth_child": 2
+   }
+  ],
+  [
+   {
+    "it": 91,
+    "parent": "n90",
+    "child": "n91",
+    "parent_depth": 11,
+    "parent_age_nodes": 0,
+    "nth_child": 1
+   },
+   {
+    "it": 92,
+    "parent": "n88",
+    "child": "n92",
+    "parent_depth": 12,
+    "parent_age_nodes": 3,
+    "nth_child": 1
+   },
+   {
+    "it": 93,
+    "parent": "n63",
+    "child": "n93",
+    "parent_depth": 10,
+    "parent_age_nodes": 29,
+    "nth_child": 1
+   },
+   {
+    "it": 94,
+    "parent": "n79",
+    "child": "n94",
+    "parent_depth": 11,
+    "parent_age_nodes": 14,
+    "nth_child": 1
+   }
+  ],
+  [
+   {
+    "it": 95,
+    "parent": "n92",
+    "child": "n95",
+    "parent_depth": 13,
+    "parent_age_nodes": 2,
+    "nth_child": 1
+   },
+   {
+    "it": 96,
+    "parent": "n89",
+    "child": "n96",
+    "parent_depth": 10,
+    "parent_age_nodes": 6,
+    "nth_child": 1
+   },
+   {
+    "it": 97,
+    "parent": "n76",
+    "child": "n97",
+    "parent_depth": 11,
+    "parent_age_nodes": 20,
+    "nth_child": 1
+   },
+   {
+    "it": 98,
+    "parent": "n21",
+    "child": "n98",
+    "parent_depth": 5,
+    "parent_age_nodes": 76,
+    "nth_child": 3
+   }
+  ],
+  [
+   {
+    "it": 99,
+    "parent": "n92",
+    "child": "n99",
+    "parent_depth": 13,
+    "parent_age_nodes": 6,
+    "nth_child": 2
+   }
+  ]
+ ],
+ "nodes": {
+  "root": {
+   "parent": null,
+   "depth": 0,
+   "act": 0,
+   "obs": 0,
+   "score": null,
+   "terminal": false,
+   "children": [
+    "n0",
+    "n1",
+    "n6"
+   ],
+   "round": -1,
+   "born": -1
+  },
+  "n0": {
+   "parent": "root",
+   "depth": 1,
+   "act": 143,
+   "obs": 1173,
+   "score": 0.9177,
+   "terminal": false,
+   "children": [
+    "n2",
+    "n5"
+   ],
+   "round": 0,
+   "born": 0
+  },
+  "n1": {
+   "parent": "root",
+   "depth": 1,
+   "act": 257,
+   "obs": 208,
+   "score": 0.6987,
+   "terminal": false,
+   "children": [
+    "n3",
+    "n18"
+   ],
+   "round": 1,
+   "born": 1
+  },
+  "n2": {
+   "parent": "n0",
+   "depth": 2,
+   "act": 181,
+   "obs": 3000,
+   "score": 0.7627,
+   "terminal": false,
+   "children": [
+    "n4",
+    "n10"
+   ],
+   "round": 1,
+   "born": 2
+  },
+  "n3": {
+   "parent": "n1",
+   "depth": 2,
+   "act": 301,
+   "obs": 3000,
+   "score": 0.5756,
+   "terminal": false,
+   "children": [],
+   "round": 2,
+   "born": 3
+  },
+  "n4": {
+   "parent": "n2",
+   "depth": 3,
+   "act": 290,
+   "obs": 1455,
+   "score": 0.877,
+   "terminal": false,
+   "children": [
+    "n8"
+   ],
+   "round": 2,
+   "born": 4
+  },
+  "n5": {
+   "parent": "n0",
+   "depth": 2,
+   "act": 357,
+   "obs": 118,
+   "score": 0.78,
+   "terminal": false,
+   "children": [
+    "n7",
+    "n12"
+   ],
+   "round": 2,
+   "born": 5
+  },
+  "n6": {
+   "parent": "root",
+   "depth": 1,
+   "act": 294,
+   "obs": 1905,
+   "score": 0.5814,
+   "terminal": false,
+   "children": [
+    "n9",
+    "n54"
+   ],
+   "round": 2,
+   "born": 6
+  },
+  "n7": {
+   "parent": "n5",
+   "depth": 3,
+   "act": 369,
+   "obs": 190,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n11",
+    "n17",
+    "n22"
+   ],
+   "round": 3,
+   "born": 7
+  },
+  "n8": {
+   "parent": "n4",
+   "depth": 4,
+   "act": 266,
+   "obs": 361,
+   "score": 0.8799,
+   "terminal": false,
+   "children": [
+    "n13"
+   ],
+   "round": 3,
+   "born": 8
+  },
+  "n9": {
+   "parent": "n6",
+   "depth": 2,
+   "act": 361,
+   "obs": 1526,
+   "score": 0.6142,
+   "terminal": false,
+   "children": [],
+   "round": 3,
+   "born": 9
+  },
+  "n10": {
+   "parent": "n2",
+   "depth": 3,
+   "act": 328,
+   "obs": 1752,
+   "score": 0.7193,
+   "terminal": false,
+   "children": [
+    "n14"
+   ],
+   "round": 3,
+   "born": 10
+  },
+  "n11": {
+   "parent": "n7",
+   "depth": 4,
+   "act": 368,
+   "obs": 3000,
+   "score": 0.9155,
+   "terminal": false,
+   "children": [
+    "n15",
+    "n21"
+   ],
+   "round": 4,
+   "born": 11
+  },
+  "n12": {
+   "parent": "n5",
+   "depth": 3,
+   "act": 281,
+   "obs": 1879,
+   "score": 0.8014,
+   "terminal": false,
+   "children": [
+    "n16",
+    "n38",
+    "n80"
+   ],
+   "round": 4,
+   "born": 12
+  },
+  "n13": {
+   "parent": "n8",
+   "depth": 5,
+   "act": 182,
+   "obs": 3000,
+   "score": 0.6159,
+   "terminal": false,
+   "children": [],
+   "round": 4,
+   "born": 13
+  },
+  "n14": {
+   "parent": "n10",
+   "depth": 4,
+   "act": 371,
+   "obs": 242,
+   "score": 0.5206,
+   "terminal": false,
+   "children": [],
+   "round": 4,
+   "born": 14
+  },
+  "n15": {
+   "parent": "n11",
+   "depth": 5,
+   "act": 356,
+   "obs": 1815,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n20",
+    "n25"
+   ],
+   "round": 5,
+   "born": 15
+  },
+  "n16": {
+   "parent": "n12",
+   "depth": 4,
+   "act": 336,
+   "obs": 1743,
+   "score": 0.6127,
+   "terminal": false,
+   "children": [],
+   "round": 5,
+   "born": 16
+  },
+  "n17": {
+   "parent": "n7",
+   "depth": 4,
+   "act": 385,
+   "obs": 1498,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n19",
+    "n26"
+   ],
+   "round": 5,
+   "born": 17
+  },
+  "n18": {
+   "parent": "n1",
+   "depth": 2,
+   "act": 185,
+   "obs": 3000,
+   "score": 0.5056,
+   "terminal": false,
+   "children": [],
+   "round": 5,
+   "born": 18
+  },
+  "n19": {
+   "parent": "n17",
+   "depth": 5,
+   "act": 345,
+   "obs": 1980,
+   "score": 0.7004,
+   "terminal": false,
+   "children": [
+    "n49"
+   ],
+   "round": 6,
+   "born": 19
+  },
+  "n20": {
+   "parent": "n15",
+   "depth": 6,
+   "act": 359,
+   "obs": 1602,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n24",
+    "n30",
+    "n46"
+   ],
+   "round": 6,
+   "born": 20
+  },
+  "n21": {
+   "parent": "n11",
+   "depth": 5,
+   "act": 206,
+   "obs": 1375,
+   "score": 0.6461,
+   "terminal": false,
+   "children": [
+    "n42",
+    "n57",
+    "n98"
+   ],
+   "round": 6,
+   "born": 21
+  },
+  "n22": {
+   "parent": "n7",
+   "depth": 4,
+   "act": 138,
+   "obs": 1349,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n23",
+    "n29",
+    "n33"
+   ],
+   "round": 6,
+   "born": 22
+  },
+  "n23": {
+   "parent": "n22",
+   "depth": 5,
+   "act": 197,
+   "obs": 3000,
+   "score": 0.9157,
+   "terminal": false,
+   "children": [
+    "n34",
+    "n74"
+   ],
+   "round": 7,
+   "born": 23
+  },
+  "n24": {
+   "parent": "n20",
+   "depth": 7,
+   "act": 216,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 7,
+   "born": 24
+  },
+  "n25": {
+   "parent": "n15",
+   "depth": 6,
+   "act": 154,
+   "obs": 1139,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n27",
+    "n36"
+   ],
+   "round": 7,
+   "born": 25
+  },
+  "n26": {
+   "parent": "n17",
+   "depth": 5,
+   "act": 130,
+   "obs": 1734,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n28"
+   ],
+   "round": 7,
+   "born": 26
+  },
+  "n27": {
+   "parent": "n25",
+   "depth": 7,
+   "act": 129,
+   "obs": 1176,
+   "score": 0.9107,
+   "terminal": false,
+   "children": [
+    "n37",
+    "n58"
+   ],
+   "round": 8,
+   "born": 27
+  },
+  "n28": {
+   "parent": "n26",
+   "depth": 6,
+   "act": 134,
+   "obs": 473,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n32"
+   ],
+   "round": 8,
+   "born": 28
+  },
+  "n29": {
+   "parent": "n22",
+   "depth": 5,
+   "act": 291,
+   "obs": 180,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n31",
+    "n50"
+   ],
+   "round": 8,
+   "born": 29
+  },
+  "n30": {
+   "parent": "n20",
+   "depth": 7,
+   "act": 122,
+   "obs": 0,
+   "score": 0.9826,
+   "terminal": true,
+   "children": [],
+   "round": 8,
+   "born": 30
+  },
+  "n31": {
+   "parent": "n29",
+   "depth": 6,
+   "act": 226,
+   "obs": 118,
+   "score": 0.8183,
+   "terminal": false,
+   "children": [
+    "n56"
+   ],
+   "round": 9,
+   "born": 31
+  },
+  "n32": {
+   "parent": "n28",
+   "depth": 7,
+   "act": 157,
+   "obs": 350,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n35"
+   ],
+   "round": 9,
+   "born": 32
+  },
+  "n33": {
+   "parent": "n22",
+   "depth": 5,
+   "act": 329,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 9,
+   "born": 33
+  },
+  "n34": {
+   "parent": "n23",
+   "depth": 6,
+   "act": 235,
+   "obs": 0,
+   "score": 0.7218,
+   "terminal": true,
+   "children": [],
+   "round": 9,
+   "born": 34
+  },
+  "n35": {
+   "parent": "n32",
+   "depth": 8,
+   "act": 178,
+   "obs": 1230,
+   "score": 0.935,
+   "terminal": false,
+   "children": [
+    "n41"
+   ],
+   "round": 10,
+   "born": 35
+  },
+  "n36": {
+   "parent": "n25",
+   "depth": 7,
+   "act": 112,
+   "obs": 1895,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n39",
+    "n43"
+   ],
+   "round": 10,
+   "born": 36
+  },
+  "n37": {
+   "parent": "n27",
+   "depth": 8,
+   "act": 365,
+   "obs": 1402,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n40",
+    "n61"
+   ],
+   "round": 10,
+   "born": 37
+  },
+  "n38": {
+   "parent": "n12",
+   "depth": 4,
+   "act": 274,
+   "obs": 410,
+   "score": 0.6681,
+   "terminal": false,
+   "children": [],
+   "round": 10,
+   "born": 38
+  },
+  "n39": {
+   "parent": "n36",
+   "depth": 8,
+   "act": 109,
+   "obs": 1982,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n44",
+    "n82"
+   ],
+   "round": 11,
+   "born": 39
+  },
+  "n40": {
+   "parent": "n37",
+   "depth": 9,
+   "act": 182,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 11,
+   "born": 40
+  },
+  "n41": {
+   "parent": "n35",
+   "depth": 9,
+   "act": 332,
+   "obs": 1520,
+   "score": 0.9746,
+   "terminal": false,
+   "children": [
+    "n45"
+   ],
+   "round": 11,
+   "born": 41
+  },
+  "n42": {
+   "parent": "n21",
+   "depth": 6,
+   "act": 226,
+   "obs": 0,
+   "score": 0.8498,
+   "terminal": true,
+   "children": [],
+   "round": 11,
+   "born": 42
+  },
+  "n43": {
+   "parent": "n36",
+   "depth": 8,
+   "act": 327,
+   "obs": 141,
+   "score": 0.882,
+   "terminal": false,
+   "children": [
+    "n48"
+   ],
+   "round": 12,
+   "born": 43
+  },
+  "n44": {
+   "parent": "n39",
+   "depth": 9,
+   "act": 284,
+   "obs": 316,
+   "score": 0.8237,
+   "terminal": false,
+   "children": [
+    "n85"
+   ],
+   "round": 12,
+   "born": 44
+  },
+  "n45": {
+   "parent": "n41",
+   "depth": 10,
+   "act": 102,
+   "obs": 296,
+   "score": 0.8608,
+   "terminal": false,
+   "children": [],
+   "round": 12,
+   "born": 45
+  },
+  "n46": {
+   "parent": "n20",
+   "depth": 7,
+   "act": 223,
+   "obs": 110,
+   "score": 0.9388,
+   "terminal": false,
+   "children": [
+    "n47",
+    "n53"
+   ],
+   "round": 12,
+   "born": 46
+  },
+  "n47": {
+   "parent": "n46",
+   "depth": 8,
+   "act": 218,
+   "obs": 112,
+   "score": 0.9783,
+   "terminal": false,
+   "children": [
+    "n52",
+    "n70"
+   ],
+   "round": 13,
+   "born": 47
+  },
+  "n48": {
+   "parent": "n43",
+   "depth": 9,
+   "act": 294,
+   "obs": 489,
+   "score": 0.7158,
+   "terminal": false,
+   "children": [],
+   "round": 13,
+   "born": 48
+  },
+  "n49": {
+   "parent": "n19",
+   "depth": 6,
+   "act": 322,
+   "obs": 1021,
+   "score": 0.6786,
+   "terminal": false,
+   "children": [],
+   "round": 13,
+   "born": 49
+  },
+  "n50": {
+   "parent": "n29",
+   "depth": 6,
+   "act": 368,
+   "obs": 1942,
+   "score": 0.9575,
+   "terminal": false,
+   "children": [
+    "n51",
+    "n62"
+   ],
+   "round": 13,
+   "born": 50
+  },
+  "n51": {
+   "parent": "n50",
+   "depth": 7,
+   "act": 345,
+   "obs": 0,
+   "score": 0.9338,
+   "terminal": true,
+   "children": [],
+   "round": 14,
+   "born": 51
+  },
+  "n52": {
+   "parent": "n47",
+   "depth": 9,
+   "act": 287,
+   "obs": 290,
+   "score": 0.8572,
+   "terminal": false,
+   "children": [
+    "n73"
+   ],
+   "round": 14,
+   "born": 52
+  },
+  "n53": {
+   "parent": "n46",
+   "depth": 8,
+   "act": 311,
+   "obs": 256,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n55",
+    "n60",
+    "n84"
+   ],
+   "round": 14,
+   "born": 53
+  },
+  "n54": {
+   "parent": "n6",
+   "depth": 2,
+   "act": 108,
+   "obs": 3000,
+   "score": 0.664,
+   "terminal": false,
+   "children": [],
+   "round": 14,
+   "born": 54
+  },
+  "n55": {
+   "parent": "n53",
+   "depth": 9,
+   "act": 348,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 15,
+   "born": 55
+  },
+  "n56": {
+   "parent": "n31",
+   "depth": 7,
+   "act": 102,
+   "obs": 290,
+   "score": 0.5118,
+   "terminal": false,
+   "children": [],
+   "round": 15,
+   "born": 56
+  },
+  "n57": {
+   "parent": "n21",
+   "depth": 6,
+   "act": 139,
+   "obs": 351,
+   "score": 0.718,
+   "terminal": false,
+   "children": [],
+   "round": 15,
+   "born": 57
+  },
+  "n58": {
+   "parent": "n27",
+   "depth": 8,
+   "act": 337,
+   "obs": 276,
+   "score": 0.9799,
+   "terminal": false,
+   "children": [
+    "n59",
+    "n66"
+   ],
+   "round": 15,
+   "born": 58
+  },
+  "n59": {
+   "parent": "n58",
+   "depth": 9,
+   "act": 162,
+   "obs": 162,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n65"
+   ],
+   "round": 16,
+   "born": 59
+  },
+  "n60": {
+   "parent": "n53",
+   "depth": 9,
+   "act": 208,
+   "obs": 1025,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n63",
+    "n89"
+   ],
+   "round": 16,
+   "born": 60
+  },
+  "n61": {
+   "parent": "n37",
+   "depth": 9,
+   "act": 340,
+   "obs": 1740,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n64"
+   ],
+   "round": 16,
+   "born": 61
+  },
+  "n62": {
+   "parent": "n50",
+   "depth": 7,
+   "act": 172,
+   "obs": 1275,
+   "score": 0.9234,
+   "terminal": false,
+   "children": [
+    "n68"
+   ],
+   "round": 16,
+   "born": 62
+  },
+  "n63": {
+   "parent": "n60",
+   "depth": 10,
+   "act": 344,
+   "obs": 1745,
+   "score": 0.8804,
+   "terminal": false,
+   "children": [
+    "n93"
+   ],
+   "round": 17,
+   "born": 63
+  },
+  "n64": {
+   "parent": "n61",
+   "depth": 10,
+   "act": 251,
+   "obs": 1160,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n67"
+   ],
+   "round": 17,
+   "born": 64
+  },
+  "n65": {
+   "parent": "n59",
+   "depth": 10,
+   "act": 232,
+   "obs": 1712,
+   "score": 0.6722,
+   "terminal": false,
+   "children": [],
+   "round": 17,
+   "born": 65
+  },
+  "n66": {
+   "parent": "n58",
+   "depth": 9,
+   "act": 394,
+   "obs": 282,
+   "score": 0.8352,
+   "terminal": false,
+   "children": [
+    "n69"
+   ],
+   "round": 17,
+   "born": 66
+  },
+  "n67": {
+   "parent": "n64",
+   "depth": 11,
+   "act": 379,
+   "obs": 313,
+   "score": 0.6968,
+   "terminal": false,
+   "children": [],
+   "round": 18,
+   "born": 67
+  },
+  "n68": {
+   "parent": "n62",
+   "depth": 8,
+   "act": 119,
+   "obs": 251,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n72"
+   ],
+   "round": 18,
+   "born": 68
+  },
+  "n69": {
+   "parent": "n66",
+   "depth": 10,
+   "act": 268,
+   "obs": 1536,
+   "score": 0.6749,
+   "terminal": false,
+   "children": [],
+   "round": 18,
+   "born": 69
+  },
+  "n70": {
+   "parent": "n47",
+   "depth": 9,
+   "act": 316,
+   "obs": 364,
+   "score": 0.9582,
+   "terminal": false,
+   "children": [
+    "n71",
+    "n77"
+   ],
+   "round": 18,
+   "born": 70
+  },
+  "n71": {
+   "parent": "n70",
+   "depth": 10,
+   "act": 363,
+   "obs": 180,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n76",
+    "n90"
+   ],
+   "round": 19,
+   "born": 71
+  },
+  "n72": {
+   "parent": "n68",
+   "depth": 9,
+   "act": 283,
+   "obs": 1587,
+   "score": 0.7732,
+   "terminal": false,
+   "children": [],
+   "round": 19,
+   "born": 72
+  },
+  "n73": {
+   "parent": "n52",
+   "depth": 10,
+   "act": 338,
+   "obs": 1030,
+   "score": 0.914,
+   "terminal": false,
+   "children": [
+    "n78"
+   ],
+   "round": 19,
+   "born": 73
+  },
+  "n74": {
+   "parent": "n23",
+   "depth": 6,
+   "act": 301,
+   "obs": 1494,
+   "score": 0.9698,
+   "terminal": false,
+   "children": [
+    "n75"
+   ],
+   "round": 19,
+   "born": 74
+  },
+  "n75": {
+   "parent": "n74",
+   "depth": 7,
+   "act": 229,
+   "obs": 1959,
+   "score": 0.8326,
+   "terminal": false,
+   "children": [],
+   "round": 20,
+   "born": 75
+  },
+  "n76": {
+   "parent": "n71",
+   "depth": 11,
+   "act": 380,
+   "obs": 1763,
+   "score": 0.8155,
+   "terminal": false,
+   "children": [
+    "n97"
+   ],
+   "round": 20,
+   "born": 76
+  },
+  "n77": {
+   "parent": "n70",
+   "depth": 10,
+   "act": 141,
+   "obs": 1872,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n79",
+    "n86"
+   ],
+   "round": 20,
+   "born": 77
+  },
+  "n78": {
+   "parent": "n73",
+   "depth": 11,
+   "act": 295,
+   "obs": 3000,
+   "score": 0.886,
+   "terminal": false,
+   "children": [
+    "n81"
+   ],
+   "round": 20,
+   "born": 78
+  },
+  "n79": {
+   "parent": "n77",
+   "depth": 11,
+   "act": 105,
+   "obs": 1536,
+   "score": 0.8171,
+   "terminal": false,
+   "children": [
+    "n94"
+   ],
+   "round": 21,
+   "born": 79
+  },
+  "n80": {
+   "parent": "n12",
+   "depth": 4,
+   "act": 190,
+   "obs": 3000,
+   "score": 0.7271,
+   "terminal": false,
+   "children": [],
+   "round": 21,
+   "born": 80
+  },
+  "n81": {
+   "parent": "n78",
+   "depth": 12,
+   "act": 210,
+   "obs": 0,
+   "score": 0.5842,
+   "terminal": true,
+   "children": [],
+   "round": 21,
+   "born": 81
+  },
+  "n82": {
+   "parent": "n39",
+   "depth": 9,
+   "act": 151,
+   "obs": 1571,
+   "score": 0.9736,
+   "terminal": false,
+   "children": [
+    "n83"
+   ],
+   "round": 21,
+   "born": 82
+  },
+  "n83": {
+   "parent": "n82",
+   "depth": 10,
+   "act": 202,
+   "obs": 400,
+   "score": 0.7705,
+   "terminal": false,
+   "children": [],
+   "round": 22,
+   "born": 83
+  },
+  "n84": {
+   "parent": "n53",
+   "depth": 9,
+   "act": 104,
+   "obs": 1444,
+   "score": 0.8476,
+   "terminal": false,
+   "children": [
+    "n87"
+   ],
+   "round": 22,
+   "born": 84
+  },
+  "n85": {
+   "parent": "n44",
+   "depth": 10,
+   "act": 362,
+   "obs": 1478,
+   "score": 0.7397,
+   "terminal": false,
+   "children": [],
+   "round": 22,
+   "born": 85
+  },
+  "n86": {
+   "parent": "n77",
+   "depth": 11,
+   "act": 279,
+   "obs": 348,
+   "score": 0.9067,
+   "terminal": false,
+   "children": [
+    "n88"
+   ],
+   "round": 22,
+   "born": 86
+  },
+  "n87": {
+   "parent": "n84",
+   "depth": 10,
+   "act": 133,
+   "obs": 1496,
+   "score": 0.4567,
+   "terminal": false,
+   "children": [],
+   "round": 23,
+   "born": 87
+  },
+  "n88": {
+   "parent": "n86",
+   "depth": 12,
+   "act": 357,
+   "obs": 1081,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n92"
+   ],
+   "round": 23,
+   "born": 88
+  },
+  "n89": {
+   "parent": "n60",
+   "depth": 10,
+   "act": 277,
+   "obs": 484,
+   "score": 0.846,
+   "terminal": false,
+   "children": [
+    "n96"
+   ],
+   "round": 23,
+   "born": 89
+  },
+  "n90": {
+   "parent": "n71",
+   "depth": 11,
+   "act": 169,
+   "obs": 355,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n91"
+   ],
+   "round": 23,
+   "born": 90
+  },
+  "n91": {
+   "parent": "n90",
+   "depth": 12,
+   "act": 337,
+   "obs": 1159,
+   "score": 0.8028,
+   "terminal": false,
+   "children": [],
+   "round": 24,
+   "born": 91
+  },
+  "n92": {
+   "parent": "n88",
+   "depth": 13,
+   "act": 287,
+   "obs": 295,
+   "score": 1.0,
+   "terminal": false,
+   "children": [
+    "n95",
+    "n99"
+   ],
+   "round": 24,
+   "born": 92
+  },
+  "n93": {
+   "parent": "n63",
+   "depth": 11,
+   "act": 204,
+   "obs": 3000,
+   "score": 0.8929,
+   "terminal": false,
+   "children": [],
+   "round": 24,
+   "born": 93
+  },
+  "n94": {
+   "parent": "n79",
+   "depth": 12,
+   "act": 375,
+   "obs": 1309,
+   "score": 0.7392,
+   "terminal": false,
+   "children": [],
+   "round": 24,
+   "born": 94
+  },
+  "n95": {
+   "parent": "n92",
+   "depth": 14,
+   "act": 260,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 25,
+   "born": 95
+  },
+  "n96": {
+   "parent": "n89",
+   "depth": 11,
+   "act": 301,
+   "obs": 1942,
+   "score": 0.7738,
+   "terminal": false,
+   "children": [],
+   "round": 25,
+   "born": 96
+  },
+  "n97": {
+   "parent": "n76",
+   "depth": 12,
+   "act": 207,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 25,
+   "born": 97
+  },
+  "n98": {
+   "parent": "n21",
+   "depth": 6,
+   "act": 358,
+   "obs": 1315,
+   "score": 0.5032,
+   "terminal": false,
+   "children": [],
+   "round": 25,
+   "born": 98
+  },
+  "n99": {
+   "parent": "n92",
+   "depth": 14,
+   "act": 334,
+   "obs": 0,
+   "score": 1.0,
+   "terminal": true,
+   "children": [],
+   "round": 26,
+   "born": 99
+  }
+ },
+ "stats": {
+  "expansions": 100,
+  "requests": 188,
+  "decode_tokens": 25589,
+  "obs_tokens": 109333,
+  "max_depth": 14,
+  "terminals": 12,
+  "from_previous_round": 49,
+  "parent_age_nodes_median": 5,
+  "parent_age_8_or_more": 36,
+  "max_path_tokens_below_root": 17276,
+  "expanded_parent_path_tokens_mean": 8745
+ }
+}

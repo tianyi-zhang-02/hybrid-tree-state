@@ -1,0 +1,83 @@
+device_map load failed (Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`); loading on the CPU
+
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]
+Loading weights:  48%|████▊     | 368/760 [00:00<00:00, 3670.40it/s]
+Loading weights: 100%|██████████| 760/760 [00:00<00:00, 4205.45it/s]
+model on GPU: 17.9 GB
+{"root_len": 32064, "roots": 8, "seg": 256, "chunk": 4096, "model": "Qwen/Qwen3.5-9B", "dtype": "bfloat16", "attn": "sdpa", "fractions": [0.0, 0.01, 0.05, 0.1, 0.2, 1.0], "mode": "rollout", "transformers": "5.22.2", "torch": "2.14.0+cu130", "gdn_chunk_impl": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule", "gdn_recurrent_impl": "transformers.models.qwen3_5.modeling_qwen3_5.torch_recurrent_gated_delta_rule", "conv_impl": "transformers.models.qwen3_5.modeling_qwen3_5.causal_conv1d_fn", "full_attention_layers": [3, 7, 11, 15, 19, 23, 27, 31], "host": "redacted", "gpu": "NVIDIA GeForce RTX 4090", "corpus_tokens": 172236}
+root 0 off 0
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+  exact k= 32063 |log r|=0.0189 kl=0.0006 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.4151 kl=0.2388 same tokens as exact 1/256
+  r1    k=   321 |log r|=0.4293 kl=0.2235 same tokens as exact 12/256
+  r5    k=  1604 |log r|=0.1973 kl=0.0501 same tokens as exact 37/256
+  r10   k=  3207 |log r|=0.1424 kl=0.0249 same tokens as exact 44/256
+  r20   k=  6413 |log r|=0.1004 kl=0.0128 same tokens as exact 40/256
+  r100  k= 32063 |log r|=0.0189 kl=0.0006 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  94 s peak 20.4 GB
+root 1 off 19988
+  exact k= 32063 |log r|=0.0134 kl=0.0005 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.7071 kl=0.4829 same tokens as exact 5/256
+  r1    k=   321 |log r|=0.3358 kl=0.1568 same tokens as exact 30/256
+  r5    k=  1604 |log r|=0.1613 kl=0.0570 same tokens as exact 30/256
+  r10   k=  3207 |log r|=0.2429 kl=0.0606 same tokens as exact 31/256
+  r20   k=  6413 |log r|=0.1261 kl=0.0342 same tokens as exact 32/256
+  r100  k= 32063 |log r|=0.0134 kl=0.0005 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  81 s peak 20.4 GB
+root 2 off 39976
+  exact k= 32063 |log r|=0.0218 kl=0.0007 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.6299 kl=0.3289 same tokens as exact 7/256
+  r1    k=   321 |log r|=0.4005 kl=0.1803 same tokens as exact 7/256
+  r5    k=  1604 |log r|=0.2557 kl=0.0971 same tokens as exact 28/256
+  r10   k=  3207 |log r|=0.1441 kl=0.0330 same tokens as exact 25/256
+  r20   k=  6413 |log r|=0.0917 kl=0.0184 same tokens as exact 50/256
+  r100  k= 32063 |log r|=0.0218 kl=0.0007 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  83 s peak 20.4 GB
+root 3 off 59964
+  exact k= 32063 |log r|=0.0128 kl=0.0004 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.4808 kl=0.2428 same tokens as exact 6/256
+  r1    k=   321 |log r|=0.1754 kl=0.0587 same tokens as exact 39/256
+  r5    k=  1604 |log r|=0.0533 kl=0.0204 same tokens as exact 39/256
+  r10   k=  3207 |log r|=0.0723 kl=0.0185 same tokens as exact 39/256
+  r20   k=  6413 |log r|=0.0630 kl=0.0108 same tokens as exact 27/256
+  r100  k= 32063 |log r|=0.0128 kl=0.0004 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  81 s peak 20.4 GB
+root 4 off 79952
+  exact k= 32063 |log r|=0.0137 kl=0.0004 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.4222 kl=0.2394 same tokens as exact 2/256
+  r1    k=   321 |log r|=0.3016 kl=0.0995 same tokens as exact 16/256
+  r5    k=  1604 |log r|=0.1681 kl=0.0491 same tokens as exact 14/256
+  r10   k=  3207 |log r|=0.0962 kl=0.0259 same tokens as exact 25/256
+  r20   k=  6413 |log r|=0.1161 kl=0.0223 same tokens as exact 16/256
+  r100  k= 32063 |log r|=0.0137 kl=0.0004 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  101 s peak 20.4 GB
+root 5 off 99940
+  exact k= 32063 |log r|=0.0145 kl=0.0008 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.3869 kl=0.1976 same tokens as exact 2/256
+  r1    k=   321 |log r|=0.1598 kl=0.1493 same tokens as exact 2/256
+  r5    k=  1604 |log r|=0.1952 kl=0.1323 same tokens as exact 8/256
+  r10   k=  3207 |log r|=0.1208 kl=0.1004 same tokens as exact 2/256
+  r20   k=  6413 |log r|=0.1762 kl=0.1699 same tokens as exact 3/256
+  r100  k= 32063 |log r|=0.0145 kl=0.0008 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  81 s peak 20.4 GB
+root 6 off 119928
+  exact k= 32063 |log r|=0.0029 kl=0.0001 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.6588 kl=0.5073 same tokens as exact 6/256
+  r1    k=   321 |log r|=0.0427 kl=0.0113 same tokens as exact 101/256
+  r5    k=  1604 |log r|=0.0469 kl=0.0117 same tokens as exact 101/256
+  r10   k=  3207 |log r|=0.0131 kl=0.0034 same tokens as exact 256/256
+  r20   k=  6413 |log r|=0.0217 kl=0.0049 same tokens as exact 255/256
+  r100  k= 32063 |log r|=0.0029 kl=0.0001 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  82 s peak 20.4 GB
+root 7 off 139916
+  exact k= 32063 |log r|=0.0195 kl=0.0007 same tokens as exact 256/256
+  r0    k=     0 |log r|=0.3708 kl=0.2383 same tokens as exact 4/256
+  r1    k=   321 |log r|=0.2032 kl=0.0566 same tokens as exact 7/256
+  r5    k=  1604 |log r|=0.1553 kl=0.0260 same tokens as exact 22/256
+  r10   k=  3207 |log r|=0.0711 kl=0.0066 same tokens as exact 49/256
+  r20   k=  6413 |log r|=0.0691 kl=0.0067 same tokens as exact 49/256
+  r100  k= 32063 |log r|=0.0195 kl=0.0007 same tokens as exact 256/256
+  r100_same_as_exact=True r100 bit-equal=True  81 s peak 20.4 GB

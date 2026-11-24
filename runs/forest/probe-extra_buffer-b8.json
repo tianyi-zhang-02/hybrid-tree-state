@@ -1,0 +1,21 @@
+{
+ "max_mamba_cache_size": 40,
+ "strategy": "extra_buffer",
+ "states_sent": 80,
+ "gauges_before": {
+  "sglang:num_running_reqs": 0.0,
+  "sglang:mamba_usage": 0.0,
+  "sglang:mamba_available_tokens": 39.0,
+  "sglang:mamba_evictable_tokens": 1.0,
+  "sglang:mamba_used_tokens": 0.0
+ },
+ "gauges_after": {
+  "sglang:num_running_reqs": 0.0,
+  "sglang:mamba_usage": 0.0,
+  "sglang:mamba_available_tokens": 2.0,
+  "sglang:mamba_evictable_tokens": 38.0,
+  "sglang:mamba_used_tokens": 0.0
+ },
+ "newest_checked": 16,
+ "newest_still_cached": 16
+}

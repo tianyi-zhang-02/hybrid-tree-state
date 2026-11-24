@@ -1,0 +1,75 @@
+device_map load failed (Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`); loading on the CPU
+
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]
+Loading weights:  48%|████▊     | 363/760 [00:00<00:00, 3619.69it/s]
+Loading weights: 100%|██████████| 760/760 [00:00<00:00, 4168.05it/s]
+model on GPU: 17.9 GB
+{"root_len": 32064, "roots": 8, "seg": 256, "chunk": 4096, "model": "Qwen/Qwen3.5-9B", "dtype": "bfloat16", "attn": "sdpa", "fractions": [0.0, 0.01, 0.05, 0.1, 0.2, 1.0], "transformers": "5.22.2", "torch": "2.14.0+cu130", "gdn_chunk_impl": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule", "gdn_recurrent_impl": "transformers.models.qwen3_5.modeling_qwen3_5.torch_recurrent_gated_delta_rule", "conv_impl": "transformers.models.qwen3_5.modeling_qwen3_5.causal_conv1d_fn", "full_attention_layers": [3, 7, 11, 15, 19, 23, 27, 31], "host": "redacted", "gpu": "NVIDIA GeForce RTX 4090", "corpus_tokens": 172236}
+root 0 off 0
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+  r0    k=     0 tf |d|=1.9162 kl=1.6121  dec |d|=1.9177
+  r1    k=   321 tf |d|=0.4456 kl=0.1964  dec |d|=0.4445
+  r5    k=  1604 tf |d|=0.2127 kl=0.0461  dec |d|=0.2113
+  r10   k=  3207 tf |d|=0.1653 kl=0.0318  dec |d|=0.1645
+  r20   k=  6413 tf |d|=0.1233 kl=0.0165  dec |d|=0.1243
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0189
+  checks dec=True ref=True r100 bit-equal=True  107 s peak 20.4 GB
+root 1 off 19988
+  r0    k=     0 tf |d|=1.4910 kl=1.4242  dec |d|=1.4944
+  r1    k=   321 tf |d|=0.3433 kl=0.1941  dec |d|=0.3438
+  r5    k=  1604 tf |d|=0.2275 kl=0.0852  dec |d|=0.2245
+  r10   k=  3207 tf |d|=0.1760 kl=0.0546  dec |d|=0.1763
+  r20   k=  6413 tf |d|=0.1442 kl=0.0411  dec |d|=0.1392
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0134
+  checks dec=True ref=True r100 bit-equal=True  91 s peak 20.4 GB
+root 2 off 39976
+  r0    k=     0 tf |d|=1.4600 kl=1.1993  dec |d|=1.4624
+  r1    k=   321 tf |d|=0.4236 kl=0.1535  dec |d|=0.4271
+  r5    k=  1604 tf |d|=0.2792 kl=0.0690  dec |d|=0.2743
+  r10   k=  3207 tf |d|=0.2074 kl=0.0428  dec |d|=0.2062
+  r20   k=  6413 tf |d|=0.1290 kl=0.0204  dec |d|=0.1300
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0218
+  checks dec=True ref=True r100 bit-equal=True  92 s peak 20.4 GB
+root 3 off 59964
+  r0    k=     0 tf |d|=1.1356 kl=0.9871  dec |d|=1.1340
+  r1    k=   321 tf |d|=0.2678 kl=0.1449  dec |d|=0.2698
+  r5    k=  1604 tf |d|=0.2045 kl=0.1134  dec |d|=0.2062
+  r10   k=  3207 tf |d|=0.0775 kl=0.0112  dec |d|=0.0913
+  r20   k=  6413 tf |d|=0.0685 kl=0.0092  dec |d|=0.0699
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0128
+  checks dec=True ref=True r100 bit-equal=True  98 s peak 20.4 GB
+root 4 off 79952
+  r0    k=     0 tf |d|=0.7797 kl=0.6352  dec |d|=0.7780
+  r1    k=   321 tf |d|=0.2797 kl=0.1045  dec |d|=0.2806
+  r5    k=  1604 tf |d|=0.1803 kl=0.0483  dec |d|=0.1801
+  r10   k=  3207 tf |d|=0.1333 kl=0.0243  dec |d|=0.1311
+  r20   k=  6413 tf |d|=0.1109 kl=0.0173  dec |d|=0.1080
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0137
+  checks dec=True ref=True r100 bit-equal=True  98 s peak 20.4 GB
+root 5 off 99940
+  r0    k=     0 tf |d|=0.8923 kl=0.6470  dec |d|=0.8882
+  r1    k=   321 tf |d|=0.5493 kl=0.3390  dec |d|=0.5486
+  r5    k=  1604 tf |d|=0.5424 kl=0.3449  dec |d|=0.5377
+  r10   k=  3207 tf |d|=0.4414 kl=0.2930  dec |d|=0.4415
+  r20   k=  6413 tf |d|=0.3853 kl=0.2632  dec |d|=0.3848
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0145
+  checks dec=True ref=True r100 bit-equal=True  90 s peak 20.4 GB
+root 6 off 119928
+  r0    k=     0 tf |d|=0.3500 kl=0.3355  dec |d|=0.3509
+  r1    k=   321 tf |d|=0.0131 kl=0.0043  dec |d|=0.0133
+  r5    k=  1604 tf |d|=0.0130 kl=0.0041  dec |d|=0.0141
+  r10   k=  3207 tf |d|=0.0122 kl=0.0033  dec |d|=0.0131
+  r20   k=  6413 tf |d|=0.0131 kl=0.0032  dec |d|=0.0138
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0029
+  checks dec=True ref=True r100 bit-equal=True  93 s peak 20.4 GB
+root 7 off 139916
+  r0    k=     0 tf |d|=0.6640 kl=0.3938  dec |d|=0.6635
+  r1    k=   321 tf |d|=0.2570 kl=0.0789  dec |d|=0.2587
+  r5    k=  1604 tf |d|=0.1340 kl=0.0209  dec |d|=0.1366
+  r10   k=  3207 tf |d|=0.0804 kl=0.0072  dec |d|=0.0795
+  r20   k=  6413 tf |d|=0.0732 kl=0.0068  dec |d|=0.0748
+  r100  k= 32063 tf |d|=0.0000 kl=0.0000  dec |d|=0.0195
+  checks dec=True ref=True r100 bit-equal=True  104 s peak 20.4 GB

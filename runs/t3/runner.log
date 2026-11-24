@@ -1,0 +1,48 @@
+[2026-11-24 02:21:08] waiting for an idle desktop (up to 480 min)
+[2026-11-24 02:21:08] check: util=68% apps=[redacted] other model jobs=1 quiet=0
+[2026-11-24 02:36:27] check: util=65% apps=[redacted] other model jobs=1 quiet=0
+[2026-11-24 02:43:36] desktop idle; starting
+[2026-11-24 02:44:13] server extra_buffer-b8 up after 40 s: #tokens: 144802 max_mamba_cache_size: 40 max_running_requests=8 
+{"max_mamba_cache_size": 40, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 39.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 38.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t3-s0-b8-p0: completion 125.089 s, recomputed 269393 (action 110181, tool 159212 for 149342 tool tokens), parent state lost 17, root misses 2, held at selection 0/100, k 0, open sessions peak 0
+t3-s0-b8-p0root: completion 123.823 s, recomputed 258790 (action 99109, tool 159681 for 149342 tool tokens), parent state lost 17, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s0-b8-p2sel: completion 124.552 s, recomputed 258790 (action 99109, tool 159681 for 149342 tool tokens), parent state lost 17, root misses 0, held at selection 27/100, k 1, open sessions peak 6
+t3-s0-b8-poracle: completion 124.641 s, recomputed 258022 (action 98341, tool 159681 for 149342 tool tokens), parent state lost 16, root misses 0, held at selection 26/100, k 1, open sessions peak 6
+t3-s1-b8-p0root: completion 119.878 s, recomputed 186408 (action 52196, tool 134212 for 123970 tool tokens), parent state lost 7, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s1-b8-p2sel: completion 119.032 s, recomputed 187880 (action 53668, tool 134212 for 123970 tool tokens), parent state lost 8, root misses 0, held at selection 28/100, k 1, open sessions peak 6
+t3-s1-b8-poracle: completion 119.996 s, recomputed 187880 (action 53668, tool 134212 for 123970 tool tokens), parent state lost 8, root misses 0, held at selection 28/100, k 1, open sessions peak 6
+t3-s1-b8-p0: completion 120.117 s, recomputed 190832 (action 56620, tool 134212 for 123970 tool tokens), parent state lost 7, root misses 1, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b8-p2sel: completion 117.704 s, recomputed 184213 (action 64095, tool 120118 for 109333 tool tokens), parent state lost 17, root misses 0, held at selection 29/100, k 1, open sessions peak 6
+t3-s2-b8-poracle: completion 118.907 s, recomputed 193568 (action 73488, tool 120080 for 109333 tool tokens), parent state lost 18, root misses 0, held at selection 29/100, k 1, open sessions peak 6
+t3-s2-b8-p0: completion 119.806 s, recomputed 200221 (action 80189, tool 120032 for 109333 tool tokens), parent state lost 18, root misses 3, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b8-p0root: completion 118.027 s, recomputed 189405 (action 69373, tool 120032 for 109333 tool tokens), parent state lost 18, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+[2026-11-24 03:09:18] server extra_buffer-b16 up after 35 s: #tokens: 132226 max_mamba_cache_size: 48 max_running_requests=8 
+{"max_mamba_cache_size": 48, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 47.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 46.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t3-s0-b16-p0: completion 123.538 s, recomputed 255517 (action 92683, tool 162834 for 149342 tool tokens), parent state lost 15, root misses 2, held at selection 0/100, k 0, open sessions peak 0
+t3-s0-b16-p0root: completion 123.505 s, recomputed 246258 (action 82955, tool 163303 for 149342 tool tokens), parent state lost 15, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s0-b16-p2sel: completion 122.704 s, recomputed 236087 (action 76350, tool 159737 for 149342 tool tokens), parent state lost 12, root misses 0, held at selection 86/100, k 9, open sessions peak 14
+t3-s0-b16-poracle: completion 122.665 s, recomputed 221885 (action 62657, tool 159228 for 149342 tool tokens), parent state lost 8, root misses 0, held at selection 90/100, k 9, open sessions peak 14
+t3-s1-b16-p0root: completion 118.088 s, recomputed 171437 (action 37225, tool 134212 for 123970 tool tokens), parent state lost 5, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s1-b16-p2sel: completion 117.184 s, recomputed 150012 (action 15800, tool 134212 for 123970 tool tokens), parent state lost 3, root misses 0, held at selection 97/100, k 9, open sessions peak 14
+t3-s1-b16-poracle: completion 116.91 s, recomputed 142972 (action 8760, tool 134212 for 123970 tool tokens), parent state lost 1, root misses 0, held at selection 97/100, k 9, open sessions peak 14
+t3-s1-b16-p0: completion 118.374 s, recomputed 175729 (action 41517, tool 134212 for 123970 tool tokens), parent state lost 5, root misses 1, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b16-p2sel: completion 116.304 s, recomputed 151128 (action 30997, tool 120131 for 109333 tool tokens), parent state lost 7, root misses 0, held at selection 88/100, k 9, open sessions peak 14
+t3-s2-b16-poracle: completion 115.335 s, recomputed 144088 (action 24021, tool 120067 for 109333 tool tokens), parent state lost 5, root misses 0, held at selection 94/100, k 9, open sessions peak 14
+t3-s2-b16-p0: completion 117.772 s, recomputed 172448 (action 52357, tool 120091 for 109333 tool tokens), parent state lost 10, root misses 2, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b16-p0root: completion 116.652 s, recomputed 169608 (action 49469, tool 120139 for 109333 tool tokens), parent state lost 13, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+[2026-11-24 03:34:00] server extra_buffer-b31 up after 35 s: #tokens: 108646 max_mamba_cache_size: 63 max_running_requests=8 
+{"max_mamba_cache_size": 63, "strategy": "extra_buffer", "states_sent": 80, "gauges_before": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 62.0, "sglang:mamba_evictable_tokens": 1.0, "sglang:mamba_used_tokens": 0.0}, "gauges_after": {"sglang:num_running_reqs": 0.0, "sglang:mamba_usage": 0.0, "sglang:mamba_available_tokens": 2.0, "sglang:mamba_evictable_tokens": 61.0, "sglang:mamba_used_tokens": 0.0}, "newest_checked": 16, "newest_still_cached": 16}
+t3-s0-b31-p0: completion 123.62 s, recomputed 243732 (action 84439, tool 159293 for 149342 tool tokens), parent state lost 13, root misses 1, held at selection 0/100, k 0, open sessions peak 0
+t3-s0-b31-p0root: completion 121.997 s, recomputed 232277 (action 72535, tool 159742 for 149342 tool tokens), parent state lost 12, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s0-b31-p2sel: completion 119.874 s, recomputed 183587 (action 24382, tool 159205 for 149342 tool tokens), parent state lost 4, root misses 0, held at selection 97/100, k 24, open sessions peak 29
+t3-s0-b31-poracle: completion 118.506 s, recomputed 162614 (action 3415, tool 159199 for 149342 tool tokens), parent state lost 0, root misses 0, held at selection 100/100, k 24, open sessions peak 23
+t3-s1-b31-p0root: completion 116.665 s, recomputed 150012 (action 15800, tool 134212 for 123970 tool tokens), parent state lost 3, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+t3-s1-b31-p2sel: completion 116.605 s, recomputed 137532 (action 3320, tool 134212 for 123970 tool tokens), parent state lost 0, root misses 0, held at selection 100/100, k 24, open sessions peak 29
+t3-s1-b31-poracle: completion 115.933 s, recomputed 137532 (action 3320, tool 134212 for 123970 tool tokens), parent state lost 0, root misses 0, held at selection 100/100, k 24, open sessions peak 16
+t3-s1-b31-p0: completion 117.567 s, recomputed 154193 (action 19981, tool 134212 for 123970 tool tokens), parent state lost 3, root misses 1, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b31-p2sel: completion 113.981 s, recomputed 123032 (action 2965, tool 120067 for 109333 tool tokens), parent state lost 0, root misses 0, held at selection 100/100, k 24, open sessions peak 29
+t3-s2-b31-poracle: completion 114.945 s, recomputed 123032 (action 2965, tool 120067 for 109333 tool tokens), parent state lost 0, root misses 0, held at selection 100/100, k 24, open sessions peak 18
+t3-s2-b31-p0: completion 117.065 s, recomputed 171808 (action 51781, tool 120027 for 109333 tool tokens), parent state lost 12, root misses 1, held at selection 0/100, k 0, open sessions peak 0
+t3-s2-b31-p0root: completion 117.248 s, recomputed 163016 (action 42941, tool 120075 for 109333 tool tokens), parent state lost 9, root misses 0, held at selection 3/100, k 0, open sessions peak 1
+[2026-11-24 03:57:54] sweep done; 0 runs reported problems
+[2026-11-24 03:57:54] runner exit 0

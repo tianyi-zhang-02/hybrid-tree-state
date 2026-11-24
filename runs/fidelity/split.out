@@ -1,0 +1,21 @@
+[2026-11-23 01:56:13] server c8000 up
+[2026-11-23 01:56:13] split control r8000 chunk 8000
+root 0 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.05949 max 0.6632
+root 1 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.06156 max 0.7460
+root 2 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.07823 max 0.5949
+root 3 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.06622 max 0.5594
+root 4 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.05033 max 0.3546
+root 5 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.01150 max 0.5574
+root 6 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.00314 max 0.2500
+root 7 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.07752 max 0.5156
+[2026-11-23 01:57:14] server c10688 up
+[2026-11-23 01:57:14] split control r32064 chunk 10688
+root 0 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.06042 max 0.3645
+root 1 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.03604 max 1.2898
+root 2 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.09387 max 1.9933
+root 3 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.04013 max 0.8727
+root 4 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.08962 max 0.7468
+root 5 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.00444 max 0.9492
+root 6 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.04151 max 2.3125
+root 7 split control: end_vs_cold_same_split mean 0.00000 max 0.0000; cold_split_at_L_vs_main_cold mean 0.08401 max 0.4832
+[2026-11-23 01:58:07] split exit 0
