@@ -1,0 +1,21 @@
+[2026-11-25 05:13:12] runs/verl-tp2 up on port 30000: max_mamba_cache_size: 592 max_running_requests is capped to 118 max_total_num_tokens=1039040 
+[2026-11-25 05:13:12] start runs/verl-tp2/g128-s0-p0
+[2026-11-25 05:16:04] end runs/verl-tp2/g128-s0-p0 (exit 0)
+[2026-11-25 05:16:04] start runs/verl-tp2/g128-s0-hold-w32
+[2026-11-25 05:18:17] end runs/verl-tp2/g128-s0-hold-w32 (exit 0)
+[2026-11-25 05:18:17] start runs/verl-tp2/g128-s1-hold-w32
+[2026-11-25 05:20:29] end runs/verl-tp2/g128-s1-hold-w32 (exit 0)
+[2026-11-25 05:20:29] start runs/verl-tp2/g128-s1-p0
+[2026-11-25 05:23:11] end runs/verl-tp2/g128-s1-p0 (exit 0)
+[2026-11-25 05:23:11] start runs/verl-tp2/g256-s0-p0
+[2026-11-25 05:28:47] end runs/verl-tp2/g256-s0-p0 (exit 0)
+[2026-11-25 05:28:47] start runs/verl-tp2/g256-s0-hold-w32
+[2026-11-25 05:32:53] end runs/verl-tp2/g256-s0-hold-w32 (exit 0)
+[2026-11-25 05:34:27] server for runs/verl-ssm-bf16 not ready after 15 min
+[2026-11-25 05:34:30] runs/verl-ratio4 up on port 30001: max_mamba_cache_size: 359 max_running_requests is capped to 71 max_total_num_tokens=142739 
+[2026-11-25 05:34:31] start runs/verl-ratio4/g128-s0-p0
+[2026-11-25 05:39:46] end runs/verl-ratio4/g128-s0-p0 (exit 0)
+[2026-11-25 05:39:46] start runs/verl-ratio4/g128-s0-hold-w32
+[2026-11-25 05:45:15] end runs/verl-ratio4/g128-s0-hold-w32 (exit 0)
+[2026-11-25 05:45:23] plan done
+[2026-11-25 05:45:23] runner exit 0 after 34 min

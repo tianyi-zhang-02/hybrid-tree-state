@@ -1,0 +1,4 @@
+GRPO step, 8 samples per prompt, 512 new tokens
+prompts seed policy     step s   vs p0  recomp k  unique k  misses  samples problems
+    128    0 p0          313.0              2010       750     701     1024 0
+    128    0 hold-w32    326.3   +4.3%      1472       750     501     1024 0

@@ -1,0 +1,70 @@
+[2026-11-24 23:09:08] server up with --max-running-requests 256
+resolved: #tokens: 373823 max_mamba_cache_size: 212 max_mamba_cache_size=212 max_running_requests=42 max_total_num_tokens=373823     raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://127.0.0.1:30000/flush_cache
+[2026-11-24 23:09:09] start smoke-p0
+  File "/opt/sglang/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://127.0.0.1:30000/flush_cache
+[2026-11-24 23:09:13] end smoke-p0 (exit 1)
+[2026-11-24 23:09:13] start smoke-hold
+  File "/opt/sglang/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://127.0.0.1:30000/flush_cache
+[2026-11-24 23:09:19] end smoke-hold (exit 1)
+[2026-11-24 23:09:19] start g128-s0-p0
+g128-s0-p0: step 361.7 s, samples recomputed 1951k of 750k unique prompt tokens, misses 664, prefill recomputed 0k, retractions 0, problems 4
+[2026-11-24 23:15:24] end g128-s0-p0 (exit 1)
+[2026-11-24 23:15:24] start g128-s0-warm
+g128-s0-warm: step 402.8 s, samples recomputed 1837k of 750k unique prompt tokens, misses 616, prefill recomputed 750k, retractions 0, problems 4
+[2026-11-24 23:22:09] end g128-s0-warm (exit 1)
+[2026-11-24 23:22:09] start g128-s0-hold
+g128-s0-hold: step 358.4 s, samples recomputed 1160k of 750k unique prompt tokens, misses 363, prefill recomputed 750k, retractions 0, problems 0
+[2026-11-24 23:28:10] end g128-s0-hold (exit 0)
+[2026-11-24 23:28:10] start g128-s0-warm-w32
+g128-s0-warm-w32: step 350.5 s, samples recomputed 1055k of 750k unique prompt tokens, misses 353, prefill recomputed 750k, retractions 0, problems 0
+[2026-11-24 23:34:03] end g128-s0-warm-w32 (exit 0)
+[2026-11-24 23:34:03] start g128-s0-hold-w32
+g128-s0-hold-w32: step 282.9 s, samples recomputed 60k of 750k unique prompt tokens, misses 11, prefill recomputed 750k, retractions 0, problems 0
+[2026-11-24 23:38:49] end g128-s0-hold-w32 (exit 0)
+[2026-11-24 23:38:49] start f16-r8000-s0-p0
+f16-r8000-s0-p0: completion 260.06 s (trees [212.826, 251.535, 200.573, 200.562, 212.799, 251.499, 200.553, 225.321, 225.308, 259.99, 259.976, 239.55, 259.967, 225.274, 239.529, 251.435]), recomputed 1957504, fallback {'none': 64, 'inside_root': 393, 'parent': 340, 'root': 79, 'ancestor': 116}, kv peak 0.74
+[2026-11-24 23:43:10] end f16-r8000-s0-p0 (exit 0)
+[2026-11-24 23:43:10] start f16-r8000-s0-p0root
+f16-r8000-s0-p0root: completion 184.796 s (trees [153.194, 161.361, 169.347, 177.231, 169.339, 161.333, 177.209, 184.738, 153.141, 177.188, 169.299, 184.716, 184.714, 144.945, 144.937, 153.108]), recomputed 862848, fallback {'none': 2, 'inside_root': 30, 'parent': 257, 'ancestor': 703}, kv peak 0.7
+[2026-11-24 23:46:15] end f16-r8000-s0-p0root (exit 0)
+[2026-11-24 23:46:15] start g128-s1-warm
+g128-s1-warm: step 378.4 s, samples recomputed 1739k of 609k unique prompt tokens, misses 675, prefill recomputed 609k, retractions 0, problems 0
+[2026-11-24 23:52:36] end g128-s1-warm (exit 0)
+[2026-11-24 23:52:36] start g128-s1-hold
+g128-s1-hold: step 320.7 s, samples recomputed 870k of 609k unique prompt tokens, misses 305, prefill recomputed 609k, retractions 0, problems 0
+[2026-11-24 23:57:59] end g128-s1-hold (exit 0)
+[2026-11-24 23:57:59] start g128-s1-warm-w32
+g128-s1-warm-w32: step 332.9 s, samples recomputed 1058k of 609k unique prompt tokens, misses 393, prefill recomputed 609k, retractions 0, problems 0
+[2026-11-25 00:03:35] end g128-s1-warm-w32 (exit 0)
+[2026-11-25 00:03:35] start g128-s1-hold-w32
+g128-s1-hold-w32: step 264.3 s, samples recomputed 30k of 609k unique prompt tokens, misses 0, prefill recomputed 609k, retractions 0, problems 0
+[2026-11-25 00:08:02] end g128-s1-hold-w32 (exit 0)
+[2026-11-25 00:08:02] start g128-s1-p0
+g128-s1-p0: step 342.1 s, samples recomputed 1807k of 609k unique prompt tokens, misses 734, prefill recomputed 0k, retractions 0, problems 0
+[2026-11-25 00:13:46] end g128-s1-p0 (exit 0)
+[2026-11-25 00:13:47] start f16-r8000-s1-p0root
+f16-r8000-s1-p0root: completion 185.142 s (trees [153.112, 145.032, 153.097, 169.418, 185.078, 177.506, 169.381, 161.387, 144.94, 161.367, 169.325, 184.992, 177.427, 184.969, 169.279, 129.779]), recomputed 864704, fallback {'inside_root': 30, 'parent': 246, 'ancestor': 714, 'none': 2}, kv peak 0.71
+[2026-11-25 00:16:52] end f16-r8000-s1-p0root (exit 0)
+[2026-11-25 00:16:52] start f16-r8000-s1-p0
+f16-r8000-s1-p0: completion 256.299 s (trees [200.221, 256.275, 209.638, 246.934, 235.467, 223.462, 190.141, 200.15, 246.877, 256.188, 223.402, 235.393, 223.389, 256.135, 246.815, 209.486]), recomputed 1898944, fallback {'none': 64, 'inside_root': 381, 'parent': 373, 'ancestor': 101, 'root': 73}, kv peak 0.72
+[2026-11-25 00:21:10] end f16-r8000-s1-p0 (exit 0)
+[2026-11-25 00:21:10] start g128-s2-hold
+g128-s2-hold: step 338.0 s, samples recomputed 971k of 690k unique prompt tokens, misses 382, prefill recomputed 690k, retractions 0, problems 0
+[2026-11-25 00:26:50] end g128-s2-hold (exit 0)
+[2026-11-25 00:26:50] start g128-s2-warm-w32
+g128-s2-warm-w32: step 346.5 s, samples recomputed 1098k of 690k unique prompt tokens, misses 369, prefill recomputed 690k, retractions 0, problems 0
+[2026-11-25 00:32:39] end g128-s2-warm-w32 (exit 0)
+[2026-11-25 00:32:39] start g128-s2-hold-w32
+g128-s2-hold-w32: step 276.1 s, samples recomputed 54k of 690k unique prompt tokens, misses 3, prefill recomputed 690k, retractions 0, problems 0
+[2026-11-25 00:37:18] end g128-s2-hold-w32 (exit 0)
+[2026-11-25 00:37:18] start g128-s2-p0
+g128-s2-p0: step 353.0 s, samples recomputed 1888k of 690k unique prompt tokens, misses 720, prefill recomputed 0k, retractions 0, problems 0
+[2026-11-25 00:43:14] end g128-s2-p0 (exit 0)
+[2026-11-25 00:43:14] time cap: not starting g128-s2-warm
+[2026-11-25 00:43:14] sweep done
+[2026-11-25 00:43:19] runner exit 0 after 95 min

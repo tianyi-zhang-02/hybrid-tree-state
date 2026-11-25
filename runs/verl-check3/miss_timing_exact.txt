@@ -1,0 +1,4 @@
+run                                         misses  first  before  after  partial early hits
+runs/verl-timing-fcfs/g128-s0-p0.json          756    128     628      0      455        100
+runs/verl-timing-fcfs/g128-s1-p0.json          758    128     630      0      429        103
+runs/verl-timing-lpm/g128-s0-p0.json           636    128     508      0      388        129

@@ -109,6 +109,10 @@ def stream_generate(base, ids, max_new, session_id=None, on_first=None):
         "first_token_latency": meta.get("first_token_latency"),
         "queue_time": meta.get("queue_time"),
         "num_retractions": meta.get("num_retractions"),
+        # Server-side times (wall clock), present with --enable-metrics: when the
+        # request first entered a forward batch, and when its prefill finished.
+        "forward_entry_time": meta.get("forward_entry_time"),
+        "prefill_finished_time": meta.get("prefill_finished_time"),
         "client_send": t_send,
         "client_first": t_first,
         "client_recv": t_recv,

@@ -1,0 +1,3 @@
+GRPO step, 8 samples per prompt, 512 new tokens
+prompts seed policy     step s   vs p0  recomp k  unique k  misses  samples problems
+    128    0 p0          161.0              1784       750     636     1024 0

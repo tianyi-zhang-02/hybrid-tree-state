@@ -1,0 +1,14 @@
+[2026-11-25 06:23:15] runs/verl-timing-fcfs up: max_mamba_cache_size: 592 max_running_requests is capped to 118 schedule_policy': 'fcfs 
+[2026-11-25 06:23:15] start runs/verl-timing-fcfs/g128-s0-p0
+g128-s0-p0: step 168.9 s, samples recomputed 1966k of 750k unique prompt tokens, misses 756, prefill recomputed 0k, retractions 0, problems 0
+[2026-11-25 06:26:07] end runs/verl-timing-fcfs/g128-s0-p0 (exit 0)
+[2026-11-25 06:27:09] runs/verl-timing-lpm up: max_mamba_cache_size: 592 max_running_requests is capped to 118 schedule_policy': 'lpm 
+[2026-11-25 06:27:09] start runs/verl-timing-lpm/g128-s0-p0
+g128-s0-p0: step 161.0 s, samples recomputed 1784k of 750k unique prompt tokens, misses 636, prefill recomputed 0k, retractions 0, problems 0
+[2026-11-25 06:29:52] end runs/verl-timing-lpm/g128-s0-p0 (exit 0)
+[2026-11-25 06:30:53] runs/verl-timing-fcfs up: max_mamba_cache_size: 592 max_running_requests is capped to 118 schedule_policy': 'fcfs 
+[2026-11-25 06:30:53] start runs/verl-timing-fcfs/g128-s1-p0
+g128-s1-p0: step 159.0 s, samples recomputed 1826k of 609k unique prompt tokens, misses 758, prefill recomputed 0k, retractions 0, problems 0
+[2026-11-25 06:33:34] end runs/verl-timing-fcfs/g128-s1-p0 (exit 0)
+[2026-11-25 06:33:34] plan done
+[2026-11-25 06:33:41] runner exit 0 after 12 min
